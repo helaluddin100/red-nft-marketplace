@@ -152,7 +152,10 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="section-title">
+              <div className="title-content">
               <h2>Live Auctions</h2>
+              <p>Most popular gaming digital nft market place </p>
+              </div>
               <div className="slider-nav">
                 <div className="prev">
                   <i className="icofont-arrow-left"></i>
@@ -743,229 +746,12 @@ function Home() {
           </div>
         </div>
       </div>
-       
-      {/* // ==============expolor product============= */}
-      <div className="home-author cpt-6">
-        <div className="container">
-          <div className="row">
-            <div className="section-title justify-content-center bf-border">
-              <h2>Top Seller</h2>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
-                  <img src="assets/img/inner/7.jpg" alt="" />
-
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
-                  </span>
-                </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
-                    NFT Funny Cat
-                  </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       {/* // ==============expolor product============= */}
       <div className="expolor-product cpy-6">
         <div className="container">
           <div className="row">
-            <div className="section-title justify-content-center bf-border">
+            <div className="section-title">
               <h2>Today's Picks</h2>
             </div>
           </div>
@@ -1675,7 +1461,10 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="section-title">
+            <div className="title-content">
               <h2>Live Auctions</h2>
+              <p>Most popular gaming digital nft market place </p>
+              </div>
               <div className="slider-nav">
                 <div className="prev">
                   <i className="icofont-arrow-left"></i>
@@ -1945,6 +1734,293 @@ function Home() {
         </div>
       </div>
       {/* // ==============expolor product============= */}
+
+           {/* // ==============expolor product============= */}
+           <div className="home-author cpy-6">
+        <div className="container">
+          <div className="row">
+            <div className="best-seller-title">
+             <div className="section-title">
+             <h2>Best Sellers</h2>
+             <p>Most popular gaming digital nft market place </p>
+             </div>
+              <a href="" className="custom-btn">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.875 1.125L1.375 9.46875C0.8125 9.78125 0.875 10.5938 1.4375 10.8125L4.78125 12.2188L13.75 4.3125C13.9062 4.15625 14.1562 4.375 14 4.5625L6.5 13.7188V16.25C6.5 17 7.375 17.2812 7.8125 16.75L9.8125 14.3125L13.6875 15.9688C14.125 16.1562 14.6562 15.875 14.7188 15.375L16.9688 1.875C17.0938 1.25 16.4062 0.8125 15.875 1.125Z" fill="white"/>
+</svg>
+          <span>Explore More</span>
+              </a>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div class="tp-collection-card">
+                <div class="collection-image">
+                  <img src="assets/img/inner/7.jpg" alt="" />
+
+                  <span class="av-mark">
+                    <i class="icofont-check"></i>
+                  </span>
+                </div>
+                <div class="collection-des">
+                  <a href="" class="collection-name">
+                    NFT Funny Cat
+                  </a>
+                  <p class="collection-total-price">7,080.95 ETH</p>
+                </div>
+                <a href="" className="custom-btn">
+              
+          <span>Follow</span>
+              </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </>
   );
 }
