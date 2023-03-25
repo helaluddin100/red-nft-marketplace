@@ -1,0 +1,184 @@
+function Footer() {
+  return (
+    <footer>
+      <div class="footer-sec cpt-6">
+        <div class="container">
+          <div class="top-footer mb-3">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div class="foot-content">
+                  <div class="footer-title">
+                    <img
+                      src="assets/img/logo/logo-2.png"
+                      alt="Image not found"
+                    />
+                  </div>
+                  <p class="footer-des">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis{" "}
+                  </p>
+
+                  <div class="social">
+                    <ul class="social-ul">
+                      <li>
+                        <a href="" class="social-link">
+                          <i class="icofont-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="social-link">
+                          <i class="icofont-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="social-link">
+                          <i class="icofont-linkedin"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="social-link">
+                          <i class="icofont-pinterest"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div class="foot-content">
+                  <div class="footer-title">
+                    <h3 class="f-title">About Us</h3>
+                  </div>
+                  <ul class="footer-menu">
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Blog & Articles
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Vintage Stores
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Trekking
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Sightseeing
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Tours
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div class="foot-content">
+                  <div class="footer-title">
+                    <h3 class="f-title">Information</h3>
+                  </div>
+                  <ul class="footer-menu">
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Protocol Explore
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        System Token
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Otimize Time
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Visual Checking
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        Fadeup System
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                        {" "}
+                        Activity Log
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div class="foot-content">
+                  <div class="footer-title">
+                    <h3 class="f-title">Newsletter</h3>
+                  </div>
+                  <p class="footer-des">
+                    Fill their seed open meat. Sea you great Saw image stl
+                  </p>
+
+                  <div class="search-box">
+                    <form method="post" class="subscribe-box">
+                      <input
+                        type="text"
+                        class="form-control subscribe"
+                        placeholder="Search..."
+                      />
+                      <button class="subscribe-btn" type="submit">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.2631 1.82405C3.5333 1.6293 3.89351 1.61414 4.17911 1.78551L16.6791 9.2855C16.9301 9.43611 17.0837 9.70736 17.0837 10.0001C17.0837 10.2928 16.9301 10.5641 16.6791 10.7147L4.17911 18.2147C3.89351 18.386 3.5333 18.3709 3.2631 18.1761C2.99291 17.9814 2.86462 17.6444 2.93687 17.3193L4.37818 10.8334L8.75033 10.8334C9.21056 10.8334 9.58366 10.4603 9.58366 10.0001C9.58366 9.53984 9.21056 9.16675 8.75033 9.16675L4.37818 9.16675L2.93687 2.68086C2.86462 2.35572 2.99291 2.01879 3.2631 1.82405Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="copy-right">
+            <p class="copy-text">
+              Copyright 2021, Devinigne All Rights Reserved.
+            </p>
+            <ul class="f-foot-ul">
+              <li>
+                <a href="">About us</a>
+              </li>
+              <li>
+                <a href="">Service</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+export default Footer;
