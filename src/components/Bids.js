@@ -285,12 +285,12 @@ function Bids() {
                 </div>
               </div>
 
-              <div class="recent-bids-header">
-                <div class="recent-head-title">
+              <div className="recent-bids-header">
+                <div className="recent-head-title">
                   <h2>Recent Bid</h2>
                 </div>
-                <div class="recent-bids-right">
-                  <div class="recent-search">
+                <div className="recent-bids-right">
+                  <div className="recent-search">
                     <input
                       type="text"
                       name=""
@@ -312,9 +312,9 @@ function Bids() {
                       </svg>
                     </button>
                   </div>
-                  <div class="recent-select-item">
+                  <div className="recent-select-item">
                     <select
-                      class="form-select"
+                      className="form-select"
                       aria-label="Default select example"
                     >
                       <option selected>Open this select menu</option>
@@ -325,9 +325,9 @@ function Bids() {
                   </div>
                 </div>
               </div>
-              <div class="recent-bids-table cpy-4">
-                <div class="table-responsive">
-                  <table class="table">
+              <div className="recent-bids-table cpy-4">
+                <div className="table-responsive">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col">Item List</th>
@@ -341,11 +341,11 @@ function Bids() {
                     <tbody>
                       <tr>
                         <td>
-                          <div class="recent-item-list">
-                            <div class="item-list-left">
+                          <div className="recent-item-list">
+                            <div className="item-list-left">
                               <img src="./assets/img/action/3.png" alt="" />
                             </div>
-                            <div class="item-list-right">
+                            <div className="item-list-right">
                               <h4>Sacral Metatron</h4>
                               <p>Hannah Zeo</p>
                             </div>
@@ -356,9 +356,9 @@ function Bids() {
                         <td>1.003 ETH</td>
                         <td>0.03 ETH</td>
                         <td>
-                          <div class="recent-action-btn">
-                            <div class="recent-action-btn-item">
-                              <button class="action-edit-btn">
+                          <div className="recent-action-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-edit-btn">
                                 <svg
                                   width="18"
                                   height="18"
@@ -373,8 +373,8 @@ function Bids() {
                                 </svg>
                               </button>
                             </div>
-                            <div class="recent-action-btn-item">
-                              <button class="action-delete-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-delete-btn">
                                 <svg
                                   width="18"
                                   height="20"
@@ -394,11 +394,11 @@ function Bids() {
                       </tr>
                       <tr>
                         <td>
-                          <div class="recent-item-list">
-                            <div class="item-list-left">
+                          <div className="recent-item-list">
+                            <div className="item-list-left">
                               <img src="./assets/img/action/3.png" alt="" />
                             </div>
-                            <div class="item-list-right">
+                            <div className="item-list-right">
                               <h4>Sacral Metatron</h4>
                               <p>Hannah Zeo</p>
                             </div>
@@ -409,9 +409,9 @@ function Bids() {
                         <td>1.003 ETH</td>
                         <td>0.03 ETH</td>
                         <td>
-                          <div class="recent-action-btn">
-                            <div class="recent-action-btn-item">
-                              <button class="action-edit-btn">
+                          <div className="recent-action-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-edit-btn">
                                 <svg
                                   width="18"
                                   height="18"
@@ -426,8 +426,8 @@ function Bids() {
                                 </svg>
                               </button>
                             </div>
-                            <div class="recent-action-btn-item">
-                              <button class="action-delete-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-delete-btn">
                                 <svg
                                   width="18"
                                   height="20"
@@ -447,11 +447,11 @@ function Bids() {
                       </tr>
                       <tr>
                         <td>
-                          <div class="recent-item-list">
-                            <div class="item-list-left">
+                          <div className="recent-item-list">
+                            <div className="item-list-left">
                               <img src="./assets/img/action/3.png" alt="" />
                             </div>
-                            <div class="item-list-right">
+                            <div className="item-list-right">
                               <h4>Sacral Metatron</h4>
                               <p>Hannah Zeo</p>
                             </div>
@@ -462,9 +462,9 @@ function Bids() {
                         <td>1.003 ETH</td>
                         <td>0.03 ETH</td>
                         <td>
-                          <div class="recent-action-btn">
-                            <div class="recent-action-btn-item">
-                              <button class="action-edit-btn">
+                          <div className="recent-action-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-edit-btn">
                                 <svg
                                   width="18"
                                   height="18"
@@ -479,8 +479,8 @@ function Bids() {
                                 </svg>
                               </button>
                             </div>
-                            <div class="recent-action-btn-item">
-                              <button class="action-delete-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-delete-btn">
                                 <svg
                                   width="18"
                                   height="20"
@@ -500,11 +500,11 @@ function Bids() {
                       </tr>
                       <tr>
                         <td>
-                          <div class="recent-item-list">
-                            <div class="item-list-left">
+                          <div className="recent-item-list">
+                            <div className="item-list-left">
                               <img src="./assets/img/action/3.png" alt="" />
                             </div>
-                            <div class="item-list-right">
+                            <div className="item-list-right">
                               <h4>Sacral Metatron</h4>
                               <p>Hannah Zeo</p>
                             </div>
@@ -515,9 +515,9 @@ function Bids() {
                         <td>1.003 ETH</td>
                         <td>0.03 ETH</td>
                         <td>
-                          <div class="recent-action-btn">
-                            <div class="recent-action-btn-item">
-                              <button class="action-edit-btn">
+                          <div className="recent-action-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-edit-btn">
                                 <svg
                                   width="18"
                                   height="18"
@@ -532,8 +532,8 @@ function Bids() {
                                 </svg>
                               </button>
                             </div>
-                            <div class="recent-action-btn-item">
-                              <button class="action-delete-btn">
+                            <div className="recent-action-btn-item">
+                              <button className="action-delete-btn">
                                 <svg
                                   width="18"
                                   height="20"
