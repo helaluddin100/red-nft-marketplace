@@ -2078,14 +2078,6 @@ button.search-btn.ss-btn {
     border: 1px solid var(--main-color);
 }
 
-.ss-input::placeholder {
-    color: var(--second-color);
-}
-
-.ss-input {
-    color: var(--second-color);
-}
-
 
 /* ========================wallet============== */
 
@@ -3592,10 +3584,6 @@ h4.modal-title {
     background: #fff;
     padding: 0 18px;
     border-radius: 10px;
-}
-
-.form-control.search-input::placeholder {
-    color: #14161b;
 }
 
 .expolor-product {
