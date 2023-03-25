@@ -23,7 +23,7 @@ function Item() {
 
   // Timer
   const countDown = () => {
-    const dueDate = new Date("April 28, 2022 00:00").getTime();
+    const dueDate = new Date("April 28, 2025 00:00").getTime();
     const currentDate = new Date().getTime();
 
     const remainings = dueDate - currentDate;
@@ -496,7 +496,7 @@ function Item() {
         <div className="container">
           <div className="row">
             <div className="section-title">
-              <h2>Explore Products</h2>
+              <h2>Live Auctions</h2>
               <a href="" className="see-more-btn">
                 Explore more
               </a>
@@ -558,9 +558,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>
@@ -632,9 +630,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>
@@ -704,9 +700,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>
@@ -776,9 +770,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>
@@ -848,9 +840,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>
@@ -920,9 +910,7 @@ function Item() {
                           <span>{second2}</span>
                         </div>
                       </div>
-                      <a href="" className="like-btn">
-                        <i className="icofont-ui-love"></i> 160
-                      </a>
+
                       <a href="" className="bid-btn">
                         <img src="assets/img/icon/bag.svg" alt="" />
                         <span>Place Bid</span>

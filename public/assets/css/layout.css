@@ -26,14 +26,14 @@ ul.menu-nav-ul {
 input.form-control.search-input {
     background: no-repeat;
     border: none;
-    /* color: var(--white-color); */
+    color: var(--white-color);
     padding-left: 20px;
 }
 
 button.search-btn {
     background: #3d287300;
     border: none;
-    /* color: var(--white-color); */
+    color: var(--white-color);
     width: 80px;
     height: 46px;
     transition: 0.3s;
@@ -49,7 +49,7 @@ form.search-form {
 }
 
 a.nav-link {
-    color: #141313;
+    color: var(--white-color);
     font-size: 20px;
     padding: 8px 13px;
 }
@@ -59,7 +59,7 @@ header.header {
     position: fixed;
     width: 100%;
     transition: 0.3s;
-    background: #ffffff;
+    background: var(--main-color);
     z-index: 99;
 }
 
