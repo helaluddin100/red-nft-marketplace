@@ -47,6 +47,9 @@ function Help() {
                   <p>
                     Or choose a categories to quickly find the help you need
                   </p>
+                  <p>
+                    Or choose a categories to quickly find the help you need
+                  </p>
                 </div>
               </div>
             </div>
