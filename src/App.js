@@ -84,6 +84,9 @@ function App() {
           <Route exact path="/edit-profile">
             <EditProfile />
           </Route>
+          <Route exact path="/test">
+            <h1>Hello Monoj</h1>
+          </Route>
         </Switch>
 
         <Footer />
