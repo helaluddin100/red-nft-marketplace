@@ -16,7 +16,7 @@ ul.menu-nav-ul {
 }
 
 .nav-link:hover {
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .nav-link:focus {
