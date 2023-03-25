@@ -345,7 +345,7 @@ function Author() {
       </div>
       {/* ====================top collection end =================== */}
       {/* ==============creator======================= */}
-      <section class="authors cpy-6">
+      <section class="authors cpb-6">
         <div class="container">
           <div class="title">
             <h1>Our Creator</h1>
@@ -369,7 +369,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
@@ -411,7 +411,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
@@ -456,7 +456,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
@@ -501,7 +501,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
@@ -546,7 +546,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
@@ -591,7 +591,7 @@ function Author() {
                   </div>
                 </div>
                 <div class="top-right">
-                  <a href="" className="custom-btn-alt">
+                  <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>

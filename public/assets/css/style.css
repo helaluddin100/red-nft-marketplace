@@ -183,7 +183,7 @@ ul.cat-fil-link li {
 ul.cat-fil-link {
     display: flex;
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 ul.cat-fil-link li a {
@@ -2084,19 +2084,11 @@ button.search-btn.ss-btn {
     border: 1px solid var(--main-color);
 }
 
-.ss-input::placeholder {
-    color: var(--second-color);
-}
-
-.ss-input {
-    color: var(--second-color);
-}
-
 
 /* ========================wallet============== */
 
 .wallet-item {
-    background: var(--white-color);
+    background: var(--tf-color);
     padding: 40px 30px;
     text-align: center;
     border-radius: 10px;
@@ -2941,7 +2933,7 @@ p.creater-title {
 
 .browser-cat-card {
     text-align: center;
-    background: var(--white-color);
+    background: var(--tf-color);
     padding: 30px 10px;
     border-radius: 10px;
     line-height: 20px;
@@ -2966,7 +2958,7 @@ p.creater-title {
 /* Coustom CSS  */
 
 .authors {
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
     /* padding: 30px 0; */
 }
 
@@ -2986,10 +2978,10 @@ p.creater-title {
 
 .authors .container .creators .creator-box {
     width: 100%;
-    background: #ffffff;
+    background: var(--tf-color);
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0px 3px 36px rgba(106, 55, 251, 0.2);
+    box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
 }
 
 .authors .container .creators .creator-box .box-top {
@@ -3600,10 +3592,6 @@ h4.modal-title {
     background: #fff;
     padding: 0 18px;
     border-radius: 10px;
-}
-
-.form-control.search-input::placeholder {
-    color: #14161b;
 }
 
 .expolor-product {
