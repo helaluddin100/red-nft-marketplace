@@ -101,35 +101,63 @@ function User_admin() {
   };
   return (
     <>
-      <div class="user-admin cpb-7 cpt-7">
-        <div class="container-fluid p-0 m-0">
-          <div class="user-admin-warrper">
-            <div class="user-admin-left">
-              <div class="user-head-title">
-                <div class="user-profile-img">
+      <div className="user-admin cpb-7 cpt-7">
+        <div className="container-fluid p-0 m-0">
+          <div className="user-admin-warrper">
+            <div className="user-admin-left">
+              <div className="user-head-title">
+                <div className="user-profile-img">
                   <img src="./assets/img/profile-imgs.png" alt="" />
                 </div>
-                <div class="user-title-head">
+                <div className="user-title-head">
                   <a href="">Azizul Hakim</a>
                   <p>
                     Creator <span>Pro+</span>
                   </p>
                 </div>
-                <div class="plus">+</div>
+                <div className="plus">+</div>
               </div>
-              <div class="user-ballance">
-               <div className="balance-item">
-                <p>Your Balance</p>
-                <h4>2,401.02</h4>
-                <div className="balance-shit"></div>
-                <div className="top-Up-balance">
-                    
+              <div className="user-ballance">
+                <div className="balance-item">
+                  <p>Your Balance</p>
+                  <h4>2,401.02</h4>
+                  <div className="balance-shit">
+                    <img
+                      src="./assets/img/user-dashboard/balance-shit.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="top-Up-balance">
+                    <a href="" className="custom-btn">
+                      <svg
+                        width="26"
+                        height="26"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="13" cy="13" r="13" fill="#5AE6BC" />
+                        <path
+                          d="M12.5 8V17"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M8 12.5L17 12.5"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                      <span>Top Up Balance</span>
+                    </a>
+                  </div>
                 </div>
-               </div>
               </div>
-              <div class="user-category">
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+              <div className="user-category">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -145,8 +173,8 @@ function User_admin() {
                   </div>
                   <a href="">Dashboard</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="17"
                       height="16"
@@ -162,8 +190,8 @@ function User_admin() {
                   </div>
                   <a href="">Bids</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -179,8 +207,8 @@ function User_admin() {
                   </div>
                   <a href="">Saved</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -196,8 +224,8 @@ function User_admin() {
                   </div>
                   <a href="">Collection</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -213,8 +241,8 @@ function User_admin() {
                   </div>
                   <a href="">Wallets</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -230,8 +258,8 @@ function User_admin() {
                   </div>
                   <a href="">User Profile</a>
                 </div>
-                <div class="user-category-item">
-                  <div class="category-item-icon">
+                <div className="user-category-item">
+                  <div className="category-item-icon">
                     <svg
                       width="21"
                       height="20"
@@ -250,18 +278,18 @@ function User_admin() {
               </div>
             </div>
 
-            <div class="user-content">
-              <div class="user-header-content">
-                <div class="user-content-left">
+            <div className="user-content">
+              <div className="user-header-content">
+                <div className="user-content-left">
                   <span>Good Morning Akash!</span>
                 </div>
-                <div class="user-content-right">
-                  <div class="user-content-left-site">
-                    <button class="creator">Creator</button>
+                <div className="user-content-right">
+                  <div className="user-content-left-site">
+                    <button className="creator">Creator</button>
                     <span>Collector</span>
                   </div>
-                  <div class="user-content-right-site">
-                    <div class="user-setting">
+                  <div className="user-content-right-site">
+                    <div className="user-setting">
                       <a href="">
                         <svg
                           width="25"
@@ -277,7 +305,7 @@ function User_admin() {
                         </svg>
                       </a>
                     </div>
-                    <div class="user-notification">
+                    <div className="user-notification">
                       <a href="">
                         <svg
                           width="25"
@@ -291,7 +319,7 @@ function User_admin() {
                             fill="#131736"
                           />
                         </svg>
-                        <div class="notification-count">
+                        <div className="notification-count">
                           <span>+6</span>
                         </div>
                       </a>
@@ -299,20 +327,20 @@ function User_admin() {
                   </div>
                 </div>
               </div>
-              <div class="user-tranding-auction">
-                <div class="user-tranding-title">
-                  <div class="user-trading-left">
+              <div className="user-tranding-auction">
+                <div className="user-tranding-title">
+                  <div className="user-trading-left">
                     <h2>Tranding Auctions</h2>
                   </div>
-                  <div class="user-trading-left">
+                  <div className="user-trading-left">
                     <a href="">
                       <p>Auctions</p>
                     </a>
                     <span>+32</span>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                <div className="row g-4">
+                  <div className="col-lg-4 col-xl-3 col-md-6 col-sm-12">
                     <div className="product-card">
                       <div className="product-image">
                         <a href="" className="product-link">
@@ -396,7 +424,7 @@ function User_admin() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div className="col-lg-4 col-xl-3 col-md-6 col-sm-12">
                     <div className="product-card">
                       <div className="product-image">
                         <a href="" className="product-link">
@@ -480,7 +508,7 @@ function User_admin() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div className="col-lg-4 col-xl-3 col-md-6 col-sm-12">
                     <div className="product-card">
                       <div className="product-image">
                         <a href="" className="product-link">
@@ -564,7 +592,7 @@ function User_admin() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div className="col-lg-4 col-xl-3 col-md-6 col-sm-12">
                     <div className="product-card">
                       <div className="product-image">
                         <a href="" className="product-link">
@@ -651,16 +679,16 @@ function User_admin() {
                 </div>
               </div>
 
-              <div class="user-featured-creator">
-                <div class="user-featured-creator-title">
-                  <div class="sec-title-left">
+              <div className="user-featured-creator">
+                <div className="user-featured-creator-title">
+                  <div className="sec-title-left">
                     <h2>Featured Creators</h2>
                     <p>Most popular gaming digital nft market place </p>
                   </div>
 
-                  <div class="sec-title-right">
-                    <div class="filter-menu">
-                      <a href="" class="">
+                  <div className="sec-title-right">
+                    <div className="filter-menu">
+                      <a href="" className="">
                         <span>All Creators</span>
                       </a>
                     </div>
@@ -668,22 +696,22 @@ function User_admin() {
                 </div>
 
                 <div className="row g-4">
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"
@@ -778,22 +806,22 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"
@@ -888,22 +916,22 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"
@@ -998,22 +1026,22 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"
@@ -1108,22 +1136,22 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"
@@ -1218,22 +1246,22 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="top-author-item user-admin-author-item">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
-                        <div class="tops-items">
+                        <div className="tops-items">
                           <img
                             src="assets/img/action/1.png"
                             alt=""
-                            class="author-img"
+                            className="author-img"
                           />
                         </div>
-                        <div class="nft-name-price">
-                          <a href="" class="author-name">
+                        <div className="nft-name-price">
+                          <a href="" className="author-name">
                             @Ndrea_uido
                           </a>
-                          <p class="top-price">3,002.98 ETH</p>
-                          <div class="star">
+                          <p className="top-price">3,002.98 ETH</p>
+                          <div className="star">
                             <svg
                               width="20"
                               height="20"

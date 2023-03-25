@@ -5,8 +5,21 @@
   }
   .user-category-item {
     display: flex;
+    gap: 0 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 15px;
   }
-  
+  .user-category-item:hover{
+    background: #fff;
+    border-radius: 10px;
+  }
+  .user-category-item:hover a{
+    color: var(--main-color);
+  }
+  .user-category-item:hover .category-item-icon svg path{
+    fill: #E03939;
+  }
   .user-admin-left {
     padding: 50px 30px;
     width: 20%;
@@ -53,13 +66,31 @@
   }
   
   .user-ballance {
-    /* width: 390px; */
-    /* height: 400px; */
     margin: 30px 0;
+    background: #FFFFFF;
+box-shadow: 0px 30px 60px rgba(138, 149, 158, 0.05);
+border-radius: 20px;
+padding: 30px;
+text-align: center;
   }
-  
-  .user-ballance img {
+.balance-item p{
+    color: #B0B1BC;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .balance-item h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .balance-shit img {
     width: 100%;
+  }
+  .top-Up-balance a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   .product-card.user-product.cpys-2 {
     margin-top: 30px;
@@ -68,15 +99,12 @@
   .user-category {
     display: flex;
     flex-direction: column;
-    gap: 25px 0;
-    padding: 0 28px;
+    /* gap: 20px 0; */
+    /* padding: 0 28px; */
     margin-bottom: 50px;
   }
   
-  .user-category-item {
-    display: flex;
-    gap: 0 15px;
-  }
+
   
   .category-item-icon svg {
     width: 20px;
@@ -181,6 +209,7 @@
       color: #ffffff;
       font-weight: 700;
       height: 30px;
+      font-size: 14px;
       width: 40px;
       display: flex;
       align-items: center;
@@ -283,3 +312,167 @@
   }
 
   /* ==================== User Admin End=========================== */
+
+
+  /* ======================== Bids Start ====================== */
+  .bid-card {
+    display: flex;
+    gap: 0 20px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .bid-color-round {
+    width: 30px;
+    height: 30px;
+    background: #F4462E;
+    border-radius: 50%;
+  }
+  .yellow-round{
+    background: #FFBB00 !important;
+  }
+  .navi-bule-round{
+    background: #6F4EF2 !important;
+  }
+  .price-time{
+    background: rgba(113, 200, 77, 0.3) !important;
+    color: #71C84D !important;
+  }
+  .bid-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    margin-bottom: 30px;
+  }
+  
+  .bid-card-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #14161B;
+  }
+  
+  .bid-card-title span {
+    font-size: 15px;
+    color: #B0B1BC;
+  }
+  
+  .bids-dis-card span {
+    background: rgba(244, 70, 46, 0.3);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #F4462E;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+.bids-dis-card p {
+    font-size: 16px;
+    font-weight: 500;
+    color:#B0B1BC;
+  }
+  .recent-bids-table {
+    margin-top: 50px;
+}
+  .recent-bids-header {
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .recent-head-title h2 {
+    font-weight: 700;
+  }
+  
+  .recent-bids-right {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+  }
+  
+  .recent-search {
+    background: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgba(20, 22, 27, 0.12);
+    border-radius: 70px;
+    padding: 10px 20px;
+  }
+  
+  .recent-search input {
+    border: none;
+  }
+  
+  .recent-search button {
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .recent-select-item {
+    border: 2px solid #E2E3E3;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .recent-select-item select {
+    border: none;
+  }
+  
+  .recent-select-item option {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .recent-item-list {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+  }
+  .item-list-left {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .item-list-left img {
+    width: 100%;
+  }
+  
+  .item-list-right h4 {
+    font-size: 17px;
+    color: #555D68;
+    font-weight: 600;
+  }
+  
+  .item-list-right p {
+    font-size: 15px;
+    color: #555D68;
+    font-weight: 400;
+  }
+  .recent-action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+  }
+  
+  button.action-edit-btn {
+    border: none;
+    background: #80cd6069;
+    height: 35px;
+    width: 35px;
+  }
+  
+  button.action-delete-btn {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: #f4483057;
+  }
+  table tbody tr td{
+    font-weight: 600;
+    color:  #555D68;
+    font-size: 17px;
+  }
+  /* ======================== Bids End ====================== */
