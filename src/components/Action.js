@@ -9,7 +9,6 @@ function Action() {
 
   const [hour1, setHour1] = useState(0);
   const [hour2, setHour2] = useState(0);
-  const [hour3, setHour3] = useState(0);
 
   const [minute1, setMinute1] = useState(0);
   const [minute2, setMinute2] = useState(0);
@@ -19,7 +18,7 @@ function Action() {
 
   // Timer
   const countDown = () => {
-    const dueDate = new Date("April 28, 2022 00:00").getTime();
+    const dueDate = new Date("April 28, 2025 00:00").getTime();
     const currentDate = new Date().getTime();
 
     const remainings = dueDate - currentDate;
@@ -162,9 +161,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -249,9 +246,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -336,9 +331,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -423,9 +416,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -510,9 +501,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -597,9 +586,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -684,9 +671,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
@@ -771,9 +756,7 @@ function Action() {
                       <span>{second2}</span>
                     </div>
                   </div>
-                  <a href="" className="like-btn">
-                    <i className="icofont-ui-love"></i> 160
-                  </a>
+
                   <a href="" className="bid-btn">
                     <svg
                       width="18"
