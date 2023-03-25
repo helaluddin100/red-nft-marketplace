@@ -538,7 +538,7 @@ a.product-link {
 }
 
 .method-btn.active {
-    background: #FFFFFF59;
+    background: #ffffff59;
     color: var(--main-color);
 }
 
@@ -547,7 +547,7 @@ a.product-link {
 }
 
 .method-btn:hover {
-    background: #FFFFFF59;
+    background: #ffffff59;
     color: var(--main-color);
 }
 
@@ -791,10 +791,7 @@ a.nft-link {
 /* page banner  */
 
 .page-banner {
-    /* background-image: url(../img/inner/page-ban.png); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    background: linear-gradient(180deg, #6835f8 0%, #4d20ca 100%);
+    background: var(--main-color);
 }
 
 .page-banner-content {
@@ -1032,7 +1029,7 @@ a.name:hover {
     border-radius: 50px;
     position: absolute;
     bottom: 0px;
-    right: -12px;
+    right: 4px;
     color: var(--white-color);
     font-size: 12px;
 }
@@ -1093,6 +1090,7 @@ a.author-link:hover {
     margin: 0 20px;
     text-transform: capitalize;
     transition: 0.3s;
+    font-weight: 800;
 }
 
 .tab-btn:hover {
@@ -1648,7 +1646,7 @@ p.price-bid {
 .item .container .item-right .figure-title .view-like .view {
     width: 100px;
     height: 40px;
-    background: #f8f8f8;
+    background: var(--tf-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1666,7 +1664,7 @@ p.price-bid {
 .item .container .item-right .figure-title .view-like .like {
     width: 100px;
     height: 40px;
-    background: #f8f8f8;
+    background: var(--tf-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1692,8 +1690,8 @@ p.price-bid {
     display: flex;
     align-items: center;
     padding: 10px;
-    background: #f8f8f8;
     border-radius: 10px;
+    background: rgba(255, 62, 62, 0.07);
 }
 
 .item .container .item-right .ownership .owner .avatar {
@@ -1913,7 +1911,6 @@ p.price-bid {
 
 a.bid-btn-init {
     top: 50%;
-    background: var(--white-color);
     padding: 8px 25px;
     font-weight: 600;
     font-size: 18px;
@@ -1923,6 +1920,7 @@ a.bid-btn-init {
     border-radius: 23px;
     transition: 0.3s;
     justify-content: center;
+    background: rgba(255, 62, 62, 0.07);
 }
 
 a.bid-btn-init:hover {
@@ -3116,10 +3114,10 @@ p.creater-title {
 }
 
 .profile-img img {
-    width: 150px;
+    width: 110px;
     border: 2px solid #fff;
     border-radius: 50%;
-    height: 150px;
+    height: 110px;
 }
 
 .profile-content {
