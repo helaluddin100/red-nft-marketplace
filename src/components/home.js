@@ -690,6 +690,60 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* =========== How It work ============= */}
+      <div className="work cpt-6">
+        <div className="container">
+          <div className="row g-4">
+          <div className="section-title">
+              <h2>How It Work</h2>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card-item">
+                <div className="card-head">
+                <div className="card-head-img">
+                <img src="assets/img/work/1.svg" alt="" className="work-img"/>
+                </div>
+                <span>01</span>
+                </div>
+                <div className="card-content">
+                  <h4>Set your wallet</h4>
+                  <p>Decide which wallet you want to use as your transaction method</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card-item">
+                <div className="card-head">
+                <div className="card-head-img">
+                <img src="assets/img/work/2.svg" alt="" className="work-img"/>
+                </div>
+                <span>02</span>
+                </div>
+                <div className="card-content">
+                  <h4>Add your NFT's</h4>
+                  <p>If you are a creator/designer, you can add your NFTs to the display</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card-item">
+                <div className="card-head">
+                <div className="card-head-img">
+                <img src="assets/img/work/3.svg" alt="" className="work-img"/>
+                </div>
+                <span>03</span>
+                </div>
+                <div className="card-content">
+                  <h4>Buy/Sell your Collection/NFT's</h4>
+                  <p>You can buy the NFTs you like or sell your NFTs to earn some cash</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
       {/* // ==============expolor product============= */}
       <div className="home-author cpt-6">
         <div className="container">
@@ -1617,7 +1671,7 @@ function Home() {
       </div>
       {/* // ==============expolor product============= */}
       {/* // ==============expolor product============= */}
-      <div className="expolor-product cpb-6">
+      <div className="expolor-product cpb-6 Latest-collection">
         <div className="container">
           <div className="row">
             <div className="section-title">

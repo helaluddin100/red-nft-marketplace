@@ -3608,3 +3608,44 @@ h4.modal-title {
 .brand-logo img {
     width: 100%;
 }
+
+/* =========== How It work start ============= */
+.card-item{
+    background: #FFEEEE;
+border: 1px solid #FFC5C5;
+border-radius: 16px;
+padding: 40px;
+}
+.card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.card-head-img img{
+    width: 100%;
+}
+.card-head span{
+    background: linear-gradient(180deg, #FC5050 0%, #E03939 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+opacity: 0.1;
+font-size: 60px;
+font-weight: 900;
+line-height: 50px;
+}
+.card-content{
+    margin-top: 30px;
+}
+.card-content h4{
+    font-size: 24px;
+    font-weight: 700;
+    color:  #0B213E;   
+}
+.card-content p{
+    margin-top: 10px;
+    color: #838383;
+}
+
+/* =========== How It work end============= */
