@@ -16,6 +16,7 @@ import Contact from "./components/Contact";
 
 import AuthorProfile from "./components/AuthorProfile";
 import EditProfile from "./components/EditProfile";
+import User_admin from "./components/User_admin";
 function App() {
   return (
     <Router>
@@ -61,6 +62,9 @@ function App() {
           </Route>
           <Route exact path="/edit-profile">
             <EditProfile />
+          </Route>
+          <Route exact path="/user-admin">
+            <User_admin/>
           </Route>
         </Switch>
 

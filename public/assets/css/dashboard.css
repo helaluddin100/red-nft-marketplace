@@ -1,0 +1,285 @@
+
+/* ==================== User Admin =========================== */
+.user-admin-warrper{
+    display: flex;
+  }
+  .user-category-item {
+    display: flex;
+  }
+  
+  .user-admin-left {
+    padding: 50px 30px;
+    width: 20%;
+    background: #FFF1F1;
+  }
+  
+  .user-head-title {
+    display: flex;
+    align-items: center;
+    gap: 0 25px;
+    position: relative;
+  }
+  
+  .user-profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .user-profile-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .user-title-head a {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  
+  .plus {
+    position: absolute;
+    right: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #5AE6BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .user-ballance {
+    /* width: 390px; */
+    /* height: 400px; */
+    margin: 30px 0;
+  }
+  
+  .user-ballance img {
+    width: 100%;
+  }
+  .product-card.user-product.cpys-2 {
+    margin-top: 30px;
+  }
+  
+  .user-category {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0;
+    padding: 0 28px;
+    margin-bottom: 50px;
+  }
+  
+  .user-category-item {
+    display: flex;
+    gap: 0 15px;
+  }
+  
+  .category-item-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .user-category-item a {
+    color: #555D68;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .user-title-head p {
+    color: #4A4A4A;
+    font-weight: 600;
+  }
+  
+  .user-title-head span {
+    color: #FFC700;
+  }
+  
+  .user-category-item a:hover {
+    color: #E03939;
+  }
+  .user-category-item svg:hover path{
+    fill: #6345ED;
+  }
+  .user-content{
+    width: 80%;
+    padding: 50px;
+    background: #FFFFFF;
+  }
+  .user-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .user-content-left span {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .user-content-right {
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+  }
+  
+  .user-content-left-site {
+    background: #F9F9F9;
+    border-radius: 31px;
+    padding: 10px 25px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button.creator {background: #FFFFFF;box-shadow: 0px 4px 4px rgba(37, 45, 48, 0.04);border-radius: 31px;padding: 7px 22px;border: none;color: #14161B;font-weight: 700;}
+  
+  .user-content-left-site span {
+      color: #B0B1BC;
+      font-weight: 500;
+      margin-left: 30px;
+  }
+  
+  .user-content-right-site {
+      display: flex;
+      align-items: center;
+      gap: 0 30px;
+  }
+  
+  .user-setting a {
+      width: 70px;
+      height: 70px;
+      padding: 10px;
+      border: 2px solid #F9F9F9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+  }
+  
+  .user-notification a {
+      width: 70px;
+      height: 70px;
+      padding: 10px;
+      border: 2px solid #F9F9F9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: relative;
+  }
+  
+  .notification-count {
+      position: absolute;
+      top: 0;
+      right: -14px;
+      background: #FC0380;
+      border-radius: 14px;
+      color: #ffffff;
+      font-weight: 700;
+      height: 30px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .user-tranding-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .user-tranding-auction {
+    margin-top: 50px;
+  }
+  
+  .user-trading-left h2 {
+    font-weight: 700;
+  }
+  
+  .user-trading-left a p {
+    color: #6345ED;
+    font-weight: 500;
+  }
+  
+  .user-trading-left span {
+    padding: 3px 9px;
+    border: 1px solid #F2F2F2;
+    border-radius: 14px;
+    color: #6345ED;
+    font-weight: 600;
+  }
+  .user-product {
+    border: 1px solid rgba(99, 69, 237, 0.12);
+    box-shadow: 0px 30px 60px rgba(138, 149, 158, 0.1);
+    border-radius: 20px;
+  }
+  .user-product-img img {
+    width: 100%;
+  }
+  .user-featured-creator {
+    margin-top: 50px;
+  }
+  
+  .user-featured-creator-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .user-featured-creator-title .sec-title-left h2{
+    font-weight: 700;
+  }
+  .top-author-item {
+    background: #FFF1F1;
+    border: 1px solid rgba(99, 69, 237, 0.12);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    justify-content: space-between;
+  }
+  .top-author-item-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .tops-items img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+.nft-name-price a {
+    padding-left: 0;
+    color: var(--second-color);
+    font-weight: 700;
+  }
+  
+  .nft-name-price p {
+    color: #dc4da6;
+    font-weight: 700;
+  }
+  .user-featured-creator-title .sec-title-right a {
+    color: #E03939;
+    font-weight: 500;
+  }
+  .top-follow{
+    transform: rotateZ(90deg);
+  }
+  .user-admin-author-item{
+    /* background: none !important; */
+    /* border: none; */
+    transition: 0.4s;
+    /* margin-bottom: 30px; */
+  }
+  .user-admin-author-item:hover{
+    background: #FFFFFF;
+  box-shadow: 4px 4px 60px rgba(99, 69, 237, 0.15);
+  }
+
+  /* ==================== User Admin End=========================== */
