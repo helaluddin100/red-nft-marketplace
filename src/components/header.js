@@ -77,20 +77,13 @@ function Header() {
                   </a>
                 </Link>
               </li>
-              <li className="nav-list">
-                <Link to="/blog">
-                  <a href="" className="nav-link">
-                    Blog
-                  </a>
-                </Link>
-              </li>
             </ul>
             <a href="" className="custom-btn l-none mt-3">
               <span>Connect Wallet</span>
             </a>
           </div>
           <div className="wallet-btn m-none">
-            <a href="" className="custom-btn ">
+            <a href="" className="custom-btn-alt">
               <span>
                 <i class="icofont-wallet"></i> Connect Wallet
               </span>

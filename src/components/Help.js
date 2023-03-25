@@ -53,7 +53,7 @@ function Help() {
           </div>
         </div>
 
-        <div className="browser cpy-8">
+        <div className="browser ">
           <div className="container">
             <div className="my-5">
               <div className="row justify-content-center">
@@ -71,7 +71,7 @@ function Help() {
                   <div className="browser-cat-card">
                     <img src="assets/img/icon/8.svg" alt="" />
 
-                    <h3>Buying</h3>
+                    <h3>Creating</h3>
                     <p>
                       Learn how to purchase your first NFT and understand gas
                       fees and what's gas free.
@@ -82,7 +82,7 @@ function Help() {
                   <div className="browser-cat-card">
                     <img src="assets/img/icon/9.svg" alt="" />
 
-                    <h3>Selling</h3>
+                    <h3>Buying</h3>
                     <p>
                       Learn how list your NFTs for sale and understand the
                       different ways to list.
@@ -93,7 +93,7 @@ function Help() {
                   <div className="browser-cat-card">
                     <img src="assets/img/icon/10.svg" alt="" />
 
-                    <h3>Creating</h3>
+                    <h3>Selling</h3>
                     <p>
                       Learn how to create your very first NFT and how to create
                       your NFT collections.
@@ -104,7 +104,7 @@ function Help() {
                   <div className="browser-cat-card">
                     <img src="assets/img/icon/11.svg" alt="" />
 
-                    <h3>User Safety</h3>
+                    <h3>Partners</h3>
                     <p>
                       Learn more about anti-fraud and user safety processes on
                       OpenSea.
@@ -115,7 +115,7 @@ function Help() {
                   <div className="browser-cat-card">
                     <img src="assets/img/icon/12.svg" alt="" />
 
-                    <h3>Partners</h3>
+                    <h3>Developers</h3>
                     <p>
                       Learn how you can partner with us to showcase your NFT
                       drops.

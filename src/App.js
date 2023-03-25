@@ -8,19 +8,14 @@ import Explore from "./components/explore";
 import Activity from "./components/activity";
 import Wallet from "./components/wallet";
 import Create from "./components/createItem";
-import Blog from "./components/blog";
-import PostDetails from "./components/post-details";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Action from "./components/Action";
 import Help from "./components/Help";
 import Author from "./components/Author";
 import Contact from "./components/Contact";
-import Collection from "./components/Collection";
-import Login from "./components/Login";
-import Singup from "./components/Singup";
+
 import AuthorProfile from "./components/AuthorProfile";
 import EditProfile from "./components/EditProfile";
-import Popup from "./components/popup";
 function App() {
   return (
     <Router>
@@ -33,15 +28,7 @@ function App() {
           <Route exact path="/home">
             <Home />
           </Route>
-          <Route exact path="/popup">
-            <Popup />
-          </Route>
-          <Route exact path="/login">
-            <Login />
-          </Route>
-          <Route exact path="/singup">
-            <Singup />
-          </Route>
+
           <Route exact path="/item">
             <Item />
           </Route>
@@ -60,17 +47,8 @@ function App() {
           <Route exact path="/create">
             <Create />
           </Route>
-          <Route exact path="/blog">
-            <Blog />
-          </Route>
           <Route exact path="/action">
             <Action />
-          </Route>
-          <Route exact path="/collection">
-            <Collection />
-          </Route>
-          <Route exact path="/post-details">
-            <PostDetails />
           </Route>
           <Route exact path="/help">
             <Help />
