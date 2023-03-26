@@ -20,6 +20,7 @@ import User_admin from "./components/dashboard/User_admin";
 import Bids from "./components/dashboard/Bids";
 import Saved from "./components/dashboard/Saved";
 import User_list from "./components/dashboard/User_list";
+import UserWallet from "./components/dashboard/User-wallet";
 function App() {
   return (
     <Router>
@@ -77,6 +78,9 @@ function App() {
           </Route>
           <Route exact path="/user-list">
             <User_list/>
+          </Route>
+          <Route exact path="/user-wallet">
+            <UserWallet/>
           </Route>
         </Switch>
 
