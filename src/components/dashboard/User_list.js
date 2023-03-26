@@ -68,14 +68,14 @@ function User_list() {
                     <div className="recent-head-title">
                         <h2>List Users</h2>
                     </div>
-                    <div className="recent-bids-right">
+                    <div className="user-list-all-items">
                        <div className="list-user-item-btn">
                         <button className="custom-btn"><span>From</span></button>
                        </div>
                        <div className="list-user-item-btn">
                         <button className="custom-btn"><span>To</span></button>
                        </div>
-                        <div className="recent-select-item">
+                        <div className="recent-select-item user-list-select-item">
                             <select className="form-select" aria-label="Default select example">
                                 <option selected>select Option</option>
                                 <option value="1">One</option>
