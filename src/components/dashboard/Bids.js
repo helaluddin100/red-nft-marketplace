@@ -12,7 +12,9 @@ function Bids() {
            <Sidebar/>
 
             <div className="user-content">
+
               <div className="user-header-content">
+                
                 <div className="user-content-left">
                   <span>Good Morning Akash!</span>
                 </div>

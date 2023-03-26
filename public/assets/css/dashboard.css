@@ -24,8 +24,24 @@
   padding: 50px 30px;
   width: 20%;
   background: #FFF1F1;
+  position: relative;
 }
-
+.sidebar-close-menu svg{
+  text-align: left;
+  right: 16px;
+  top: 2%;
+  width: 30px;
+  height: 30px;
+  /* display: none; */
+  position: absolute;
+  cursor: pointer;
+  z-index: 11;
+}
+.sidebar-menu-icons{left: -2px;top: -37px;/* display: none; */position: absolute;cursor: pointer;}
+.sidebar-menu-icons svg{
+  width: 30px;
+  height: 30px;
+}
 .user-head-title {
   display: flex;
   align-items: center;
@@ -50,6 +66,12 @@
   font-size: 22px;
 }
 
+.form-select:focus {
+  border-color: #E03939 !important;
+  outline: 0 !important;
+  box-shadow:none !important;
+  border-radius: 50px !important;
+}
 .plus {
   position: absolute;
   right: 6px;
@@ -141,6 +163,8 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  margin-top: 30px;
 }
 
 .user-content-left span {
@@ -299,6 +323,8 @@ button.creator {background: #FFFFFF;box-shadow: 0px 4px 4px rgba(37, 45, 48, 0.0
 }
 .top-follow{
   transform: rotateZ(90deg);
+  position: relative;
+  left: 20px;
 }
 .user-admin-author-item{
   /* background: none !important; */
@@ -393,11 +419,16 @@ box-shadow: 4px 4px 60px rgba(99, 69, 237, 0.15);
   align-items: center;
   gap: 0 20px;
 }
-
+.user-list-all-items{
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
 .recent-search {
   background: rgba(255, 255, 255, 0.07);
   border: 2px solid rgba(20, 22, 27, 0.12);
-  border-radius: 70px;
+  border-radius: 50px;
+  white-space: nowrap;
   padding: 10px 20px;
 }
 
@@ -413,7 +444,7 @@ box-shadow: 4px 4px 60px rgba(99, 69, 237, 0.15);
 
 .recent-select-item {
   border: 2px solid #E2E3E3;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 5px;
 }
 
@@ -441,7 +472,7 @@ box-shadow: 4px 4px 60px rgba(99, 69, 237, 0.15);
 }
 
 .item-list-right h4 {
-  font-size: 17px;
+  font-size: 16px;
   color: #555D68;
   font-weight: 600;
 }
@@ -475,7 +506,7 @@ button.action-delete-btn {
 table tbody tr td{
   font-weight: 600;
   color:  #555D68;
-  font-size: 17px;
+  font-size: 15px;
 }
 table>:not(caption)>*>* {
   border-bottom-width: 2px !important;
@@ -564,5 +595,8 @@ display: inline-block;
 }
 .balance-item-img img{
   width: 100%;
+}
+.table thead tr th {
+  font-size: 18px;
 }
 /* ==================== User Wallet end ============== */
