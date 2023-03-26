@@ -475,4 +475,47 @@ text-align: center;
     color:  #555D68;
     font-size: 17px;
   }
+  table>:not(caption)>*>* {
+    border-bottom-width: 2px !important;
+}
   /* ======================== Bids End ====================== */
+
+  /* ===================== User list start ============ */
+  .user-list-header{
+    margin-top: 50px;
+  }
+  .list-read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  /* ===================== User list end ============ */
+  /* ===================== Saved start ============ */
+  .saved-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  .saved-item-all-btn {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+  }
+  .saved-item-btn button {
+    width: 100px;
+    height: 50px;
+    background: #F3F5F9;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.4s;
+    color: #B0B1BC;
+  }
+  .saved-item-btn button:hover{
+    color: #ffffff;
+    background: linear-gradient(180deg, #FC5050 0%, #E03939 100%);
+  }
+  /* ===================== Saved end ============ */

@@ -16,8 +16,10 @@ import Contact from "./components/Contact";
 
 import AuthorProfile from "./components/AuthorProfile";
 import EditProfile from "./components/EditProfile";
-import User_admin from "./components/User_admin";
-import Bids from "./components/Bids";
+import User_admin from "./components/dashboard/User_admin";
+import Bids from "./components/dashboard/Bids";
+import Saved from "./components/dashboard/Saved";
+import User_list from "./components/dashboard/User_list";
 function App() {
   return (
     <Router>
@@ -69,6 +71,12 @@ function App() {
           </Route>
           <Route exact path="/bids">
             <Bids/>
+          </Route>
+          <Route exact path="/saved">
+            <Saved/>
+          </Route>
+          <Route exact path="/user-list">
+            <User_list/>
           </Route>
         </Switch>
 
