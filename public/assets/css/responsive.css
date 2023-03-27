@@ -37,6 +37,12 @@
         grid-template-columns: 1fr;
         grid-gap: 0px;
     }
+    
+.banner {
+    background-image:none !important;
+    min-height: 0px;
+  }
+  
 }
 
 @media screen and (max-width: 992px) {

@@ -89,7 +89,7 @@ p.banner-des {
     line-height: 55px;
   }
   .banner {
-    height: 520px;
+    height: 400px;
     grid-template-columns: 1fr;
     padding-top: 85px;
   }
@@ -106,13 +106,14 @@ p.banner-des {
   .banner {
     height: auto;
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   br {
     display: none;
   }
   .banner-content {
     text-align: center;
+    width: 100%;
     padding: 6px;
   }
   .banner-button-area {
@@ -663,6 +664,7 @@ p.author-name {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+  text-align: start;
 }
 
 .section-title.bf-border::before {
@@ -2657,9 +2659,10 @@ ul.conclusion-list {
   display: flex;
   align-items: center;
   background: var(--white-color);
-  padding: 12px 16px;
-  border-radius: 109px;
-  /* border: 1px solid #131740; */
+  padding:20px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 10px;
   box-shadow: 0px 3px 36px rgba(106, 55, 251, 0.1);
 }
 
