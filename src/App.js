@@ -16,6 +16,7 @@ import Contact from "./components/Contact";
 
 import AuthorProfile from "./components/AuthorProfile";
 import EditProfile from "./components/EditProfile";
+import Ranking from "./components/Ranking";
 import User_admin from "./components/dashboard/User_admin";
 import Bids from "./components/dashboard/Bids";
 import Saved from "./components/dashboard/Saved";
@@ -66,6 +67,9 @@ function App() {
           </Route>
           <Route exact path="/edit-profile">
             <EditProfile />
+          </Route>
+          <Route exact path="/ranking">
+            <Ranking/>
           </Route>
           <Route exact path="/user-admin">
             <User_admin/>

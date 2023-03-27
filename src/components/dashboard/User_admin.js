@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
 
-import Manu from "../dashboard/Manu";
+// import Manu from "../dashboard/Manu";
 
 function User_admin() {
   // Countdown
@@ -112,7 +112,7 @@ function User_admin() {
 
             <div className="user-content">
               <div className="user-header-content">
-                <Manu/>
+                {/* <Manu/> */}
                 <div className="user-content-left">
                   <span>Good Morning Akash!</span>
                 </div>

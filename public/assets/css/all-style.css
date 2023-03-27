@@ -16,3 +16,58 @@
 .best-seller-title .custom-btn::before svg path{
     fill:black !important;
 }
+
+/* ==================== Ranking ======================= */
+.ranking-header-btn-item{
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ranking-btns-item-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ranking-btns-item-left .custom-btn{
+    border-radius: 4px !important;
+}
+.ranking-btns-item-right .form-select:focus{
+    border-radius: 4px !important;
+}
+.ranking-btns-item-right .form-select{
+    padding: 10px 50px 10px 20px;
+}
+.collection-price{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+.ethereum-logo img{
+    width: 20px;
+    height: 20px;
+}
+.red-vat span{
+    color: #EF4444;
+}
+
+@media screen and (max-width: 550px) {
+    .ranking-header-btn-item{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ranking-btns-item-left {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ranking-btns-item-left .custom-btn{
+        width: 100%;
+    }
+    .ranking-btns-item-right{
+        width: 100%;
+    }
+    .ranking-btns-item-right .form-select{
+        padding: 10px 50px 10px 20px;
+        width: 100%;
+    }
+}
