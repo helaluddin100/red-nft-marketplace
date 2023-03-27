@@ -88,4 +88,7 @@
     .best-seller-title .section-title {
         align-items: center;
     }
+    .card-item {
+        padding: 20px;
+    }
 }

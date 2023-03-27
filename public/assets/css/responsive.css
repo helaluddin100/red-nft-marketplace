@@ -46,11 +46,20 @@
 }
 
 @media screen and (max-width: 992px) {
-    .section-title {
-        /* display: block; */
+    .explore-header-item {
+        flex-direction: column;
     }
     .filtaring-category {
-        margin-bottom: 20px;
+        width: 100%;
+    }
+    ul.cat-fil-link {
+        width: 100%;
+    }
+    ul.cat-fil-link li {
+        width: 100%;
+    }
+    .sort-by{
+        width: 100%;
     }
     .about-img-T {
         text-align: center;
@@ -245,7 +254,7 @@
         padding: 10px 0;
     }
     .item .container .item-right .description p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .item .container .item-right .item-info .figure-left ul li {
         font-size: 14px;
@@ -327,7 +336,7 @@
 
 @media screen and (max-width: 1215px) {
     .item .container {
-        width: 90%;
+        width: 100%;
     }
 }
 

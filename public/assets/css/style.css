@@ -1365,13 +1365,13 @@ p.token-type {
 .bid-btn {
   position: absolute;
   top: 50%;
-  background: var(--white-color);
+  background: var(--main-color);
   padding: 8px 25px;
   font-weight: 600;
   font-size: 18px;
   display: flex;
   align-items: center;
-  color: var(--second-color);
+  color: var(--white-color);
   border-radius: 23px;
   opacity: 0;
   visibility: hidden;
