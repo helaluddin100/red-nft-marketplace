@@ -294,12 +294,17 @@ button.creator {background: #FFFFFF;box-shadow: 0px 4px 4px rgba(37, 45, 48, 0.0
   display: flex;
   align-items: center;
   padding: 28px;
-  justify-content: space-between;
+  justify-content: center;
+  t: 20px;
+  text-align: center;
+  flex-direction: column;
 }
 .top-author-item-content {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
 }
 .tops-items img{
   width: 100px;
@@ -322,9 +327,9 @@ button.creator {background: #FFFFFF;box-shadow: 0px 4px 4px rgba(37, 45, 48, 0.0
   font-weight: 500;
 }
 .top-follow{
-  transform: rotateZ(90deg);
-  position: relative;
-  left: 20px;
+  /* transform: rotateZ(90deg); */
+  /* position: relative; */
+  /* left: 20px; */
 }
 .user-admin-author-item{
   /* background: none !important; */
@@ -598,5 +603,11 @@ display: inline-block;
 }
 .table thead tr th {
   font-size: 18px;
+}
+.nft-name-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
 }
 /* ==================== User Wallet end ============== */

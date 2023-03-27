@@ -33,7 +33,7 @@ function Help() {
                     officiis deleniti asperiores sit.
                   </p>
                   <div class="form-filter my-4">
-                    <form method="post" class="search-form">
+                    <form method="post" class="search-form input-search-from">
                       <input
                         type="text"
                         class="form-control search-input ss-input"

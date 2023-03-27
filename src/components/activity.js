@@ -23,7 +23,7 @@ function Activity() {
       <div className="activity-wrapper cpy-6">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-lg-8 col-md-12">
               <div className="activity-post">
                 <ul className="activity-ul">
                   <li className="activity-li">
@@ -130,10 +130,10 @@ function Activity() {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12">
               <div className="filter-sidebar">
                 <div className="form-filter">
-                  <form method="post" class="search-form">
+                  <form method="post" class="search-form input-search-from">
                     <input
                       type="text"
                       class="form-control search-input ss-input"

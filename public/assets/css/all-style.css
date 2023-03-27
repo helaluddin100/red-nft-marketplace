@@ -51,7 +51,24 @@
 .red-vat span{
     color: #EF4444;
 }
+.input-search-from input{
+    color: #000 !important;
+}
+.input-search-from input::placeholder{
+    color: #000;
+}
+.wallet-item-icon {
+    background: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.browser-cat-card p{
+    color: #7A798A;
+}
 
+
+/* ========== all style responsive =========== */
 @media screen and (max-width: 550px) {
     .ranking-header-btn-item{
         flex-direction: column;
@@ -91,4 +108,198 @@
     .card-item {
         padding: 20px;
     }
+    .form-info {
+    padding: 0 0px;
 }
+.action-wrapper{
+    margin-top: 0 !important;
+}
+.browser-cat-card h3 {
+    font-size: 20px;
+  }
+  .wallet-wrapper-title h2 {
+    font-size: 28px;
+}
+}
+
+/* <!--==================== edit-profile- start============== --> */
+section.edit-profile {
+    padding: 100px 0;
+}
+.edit-profile-left form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-item label{
+    font-weight: 600;
+font-size: 17px;
+color: #131740;
+}
+
+.form-item input {
+    background: #FEDEDE;
+/* jacarta/100 */
+border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.form-item span{
+    color: #EF4444;
+}
+
+.social-lint-con {
+    background: #FEDEDE;
+    border: 1px solid #E7E8EC;
+    border-radius: 5px;
+}
+.social-lint-con .social-link input{
+    background: none;
+    border: none;
+    
+}
+.social-link {
+    display: flex;
+    border: 1px solid rgba(224, 57, 57, 0.2);
+    gap: 5px;
+
+    cursor: pointer;
+    padding: 0 15px;
+    align-items: center;
+}
+.social-img svg {
+    width: 20px;
+    height: 20px;
+}
+.wallet-input{
+    background: #FEDEDE;
+    border: 1px solid #E7E8EC;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+.wallet-input input{
+    background: none !important;
+    border: none;
+    width: 80%;
+}
+.wallet-copy-icon svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.edit-profile-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.edit-img {
+    position: relative;
+}
+.edit-img img{
+    width: 150px;
+    height: 160px;
+}
+.upload-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#uploadBtn svg{
+width: 15px;
+height: 15px;
+}
+.edit-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #131740;
+    padding-bottom: 10px;
+}
+.edit-content p{
+    color: #5A5D79;
+    font-weight: 500;
+font-size: 14px;
+}
+
+#photo{
+    width: 150px;
+    height: 160px;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: -10px;
+    right:  -10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.edit-profile-btn{
+    margin-top: 40px;
+    display:inline-block;
+    padding: 10px 30px;
+background: #FC5050;
+box-shadow: 5px 5px 10px rgba(252, 80, 80, 0.25), inset 2px 2px 6px #FB9292, inset -5px -5px 10px #E37171;
+border-radius: 100px;
+}
+.edit-profile-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+/* <!--==================== edit-profile- end============== --> */
+
+/* =================edit-profile-responsive  */
+@media screen and (max-width: 992px) {
+    section.edit-profile {
+        padding: 70px 0 100px 0;
+        width: 100%;
+    }
+    .edit-profile .row{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .edit-profile-wrapper {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .edit-profile-right{
+       margin-bottom: 30px;
+    }
+    .edit-profile-left {
+        /* padding-right: 0px; */
+        width: 100%;
+    }
+    }
