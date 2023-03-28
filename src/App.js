@@ -22,6 +22,7 @@ import Saved from "./components/dashboard/Saved";
 import User_list from "./components/dashboard/User_list";
 import UserWallet from "./components/dashboard/User-wallet";
 import Ranking from "./components/Ranking";
+import Collection from "./components/Collection";
 function App() {
   return (
     <Router>
@@ -30,6 +31,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/collection">
+            <Collection />
           </Route>
           <Route exact path="/home">
             <Home />
@@ -50,9 +54,6 @@ function App() {
           <Route exact path="/wallet">
             <Wallet />
           </Route>
-          <Route exact path="/create">
-            <Create />
-          </Route>
           <Route exact path="/action">
             <Action />
           </Route>
@@ -69,7 +70,7 @@ function App() {
             <EditProfile />
           </Route>
           <Route exact path="/ranking">
-            <Ranking/>
+            <Ranking />
           </Route>
           <Route exact path="/user-admin">
             <User_admin />
@@ -88,6 +89,9 @@ function App() {
           </Route>
           <Route exact path="/ranking">
             <Ranking />
+          </Route>
+          <Route exact path="/item-create">
+            <Create />
           </Route>
         </Switch>
 
