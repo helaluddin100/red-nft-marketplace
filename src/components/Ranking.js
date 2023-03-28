@@ -1,10 +1,6 @@
 import React from "react";
 
-<<<<<<< HEAD
 function ranking() {
-=======
-function Ranking() {
->>>>>>> Dev-Helal
   return (
     <>
       {/* <!-- =============page banner==================== -->*/}
@@ -12,11 +8,7 @@ function Ranking() {
         <div className="container">
           <div className="page-banner-content">
             <div className="banner-inner">
-<<<<<<< HEAD
               <h2>Help Center</h2>
-=======
-              <h2>Ranking</h2>
->>>>>>> Dev-Helal
               <div className="page-route">
                 <a href="">Home </a>
                 <p> / Ranking </p>
@@ -25,7 +17,6 @@ function Ranking() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
 
       {/* ============= Ranking =========== */}
       <div className="ranking cpy-6">
@@ -94,10 +85,15 @@ function Ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -105,7 +101,8 @@ function Ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -140,10 +137,15 @@ function Ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -151,7 +153,8 @@ function Ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -186,10 +189,15 @@ function Ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -197,7 +205,8 @@ function Ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -232,10 +241,15 @@ function Ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -243,7 +257,8 @@ function Ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -278,10 +293,15 @@ function Ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -289,85 +309,19 @@ function Ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
-                  </tr>           
+                  </tr>
                 </tbody>
               </table>
-=======
-      {/* <!-- =============page banner end================ -->*/}
-      {/* <!-- ==============Ranking========== --> */}
-      <div className="ranking">
-        <div className="container">
-          <div class="my-5">
-            <div class="row">
-              <div class="col-12">
-                <div class="tranding-bar">
-                  <ul class="tranding-cat">
-                    <li>
-                      <a href="" class="tranding-cat-lin active">
-                        All Categories
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="tranding-cat-lin">
-                        All chains
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="added-btn">
-                    <div class="dp-menu-item">
-                      <div class="dp-fiexd">
-                        <p>Recently Added</p>
-                        <span>
-                          <i class="icofont-rounded-down"></i>
-                        </span>
-                      </div>
-                      <div class="dp-menu">
-                        <ul class="dp-ul">
-                          <li class="dp-li">
-                            <a href="" class="dp-link">
-                              Dropdown Menu
-                            </a>
-                          </li>
-                          <li class="dp-li">
-                            <a href="" class="dp-link">
-                              Dropdown Menu
-                            </a>
-                          </li>
-                          <li class="dp-li">
-                            <a href="" class="dp-link">
-                              Dropdown Menu
-                            </a>
-                          </li>
-                          <li class="dp-li">
-                            <a href="" class="dp-link">
-                              Dropdown Menu
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
->>>>>>> Dev-Helal
             </div>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-
-      {/* <!-- ==============Ranking end========== --> */}
->>>>>>> Dev-Helal
     </>
   );
 }
 
-<<<<<<< HEAD
 export default ranking;
-=======
-export default Ranking;
->>>>>>> Dev-Helal
