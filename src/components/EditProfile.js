@@ -9,10 +9,10 @@ function EditProfile() {
         <div className="container">
           <div className="page-banner-content">
             <div className="banner-inner">
-              <h2>Edit Profile</h2>
+              <h2>User Profile</h2>
               <div className="page-route">
               <Link to="/">Home</Link>
-                <p>/ Pages / Edit Profile </p>
+                <p>/ Pages / User Profile </p>
               </div>
             </div>
           </div>

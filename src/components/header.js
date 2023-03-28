@@ -172,13 +172,16 @@ function Header() {
                          </HashLink>
                         </li>
                         <li>
-                        <HashLink to='/edit-profile' className='dp-link' onClick={_toggleSidebar}>
+                        <HashLink to='/user-profile' className='dp-link' onClick={_toggleSidebar}>
                       User Profile
                          </HashLink>
                         </li>
                         <li>
-                        <HashLink to='/create' className='dp-link' onClick={_toggleSidebar}>
+                        <HashLink to='/item-create' className='dp-link' onClick={_toggleSidebar}>
                       Create Items
+                         </HashLink>
+                        <HashLink to='/collection' className='dp-link' onClick={_toggleSidebar}>
+                      Collection
                          </HashLink>
                         </li>
                       

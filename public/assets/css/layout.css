@@ -80,12 +80,13 @@ header.header.navbar-fixed {
     position: absolute;
     width: 250px;
     /* background: var(--white-color); */
-    border-radius: 0px 0px 5px 5px;
+    border-radius:5px ;
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
     margin-top: 35px;
     right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
     background: var(--white-color);
 }
 

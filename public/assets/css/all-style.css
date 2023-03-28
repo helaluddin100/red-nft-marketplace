@@ -306,7 +306,15 @@ section.edit-profile {
   color: #ffffff;
   font-size: 18px;
 }
-
+.form-info.input-title .mb-3 .form-select-item:focus {
+    border-radius: 0px !important;
+}
+.collection-discription{
+font-size: 14px;
+line-height: 20px;
+margin-top: 10px;
+font-weight: normal;
+}
 /* <!--==================== edit-profile- end============== --> */
 
 /* =================edit-profile-responsive  */

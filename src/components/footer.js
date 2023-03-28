@@ -61,16 +61,16 @@ function Footer() {
                       </Link>
                     </li>
                     <li class="footer-list">
-                      <Link to="">
+                      <Link to="/collection">
                         <a href="" class="footer-link">
-                          Collection
+                        Create  Collection 
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
-                      <Link to="/create">
+                      <Link to="/item-create">
                         <a href="" class="footer-link">
-                          Create Collection
+                          Create Items
                         </a>
                       </Link>
                     </li>

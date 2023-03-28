@@ -23,6 +23,7 @@ import User_list from "./components/dashboard/User_list";
 import UserWallet from "./components/dashboard/User-wallet";
 import Ranking from "./components/Ranking";
 import Collection from "./components/Collection";
+import CollectionCreate from "./components/CollectionCreate";
 function App() {
   return (
     <Router>
@@ -66,7 +67,7 @@ function App() {
           <Route exact path="/contact">
             <Contact />
           </Route>
-          <Route exact path="/edit-profile">
+          <Route exact path="/User-profile">
             <EditProfile />
           </Route>
           <Route exact path="/ranking">
@@ -92,6 +93,9 @@ function App() {
           </Route>
           <Route exact path="/item-create">
             <Create />
+          </Route>
+          <Route exact path="/collection">
+            <CollectionCreate/>
           </Route>
         </Switch>
 
