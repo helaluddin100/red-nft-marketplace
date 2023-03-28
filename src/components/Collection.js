@@ -292,7 +292,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -379,7 +379,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -466,7 +466,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -553,7 +553,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -640,7 +640,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -727,7 +727,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -814,7 +814,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>
@@ -901,7 +901,7 @@ function collection() {
                           <span>Place Bid</span>
                         </a>
                         <a href="" className="history-btn">
-                          <i class="icofont-refresh"></i> View History
+                          <i className="icofont-refresh"></i> View History
                         </a>
                       </div>
                     </div>

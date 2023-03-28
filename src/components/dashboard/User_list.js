@@ -8,8 +8,7 @@ function User_list() {
       <div className="user-admin cpb-7 cpt-7">
         <div className="container-fluid p-0 m-0">
           <div className="user-admin-warrper">
-           
-           <Sidebar/>
+            <Sidebar />
 
             <div className="user-content">
               <div className="user-header-content">
@@ -60,146 +59,149 @@ function User_list() {
                   </div>
                 </div>
               </div>
-              
-      
 
-                      
               <div className="recent-bids-header user-list-header">
-                    <div className="recent-head-title">
-                        <h2>List Users</h2>
-                    </div>
-                    <div className="user-list-all-items">
-                       <div className="list-user-item-btn">
-                        <button className="custom-btn"><span>From</span></button>
-                       </div>
-                       <div className="list-user-item-btn">
-                        <button className="custom-btn"><span>To</span></button>
-                       </div>
-                        <div className="recent-select-item user-list-select-item">
-                            <select className="form-select" aria-label="Default select example">
-                                <option selected>select Option</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                        </div>
-                        <div className="list-search-btn">
-                           <button className="custom-btn"><span>Search</span></button>
-                        </div>
-                    </div>
-                   </div>
-              <div className="recent-bids-table cpy-4">
-                <div className="table-responsive">
-                <table className="table">
-                            <thead>
-                              <tr>
-                                <th scope="col">Rank</th>
-                                <th scope="col">Owner</th>
-                                <th scope="col">NFTs Sold</th>
-                                <th scope="col">Primary Sales</th>
-                                <th scope="col">Secondary Sales</th>
-                                <th scope="col">Total</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-
-                                <td>
-                                    <div className="recent-item-list">
-                                        <div className="list-rank-count">
-                                            <span>X1</span>
-                                        </div>
-                                        <div className="item-list-left">
-                                            <img src="./assets/img/action/3.png" alt=""/>
-                                        </div>
-                                        <div className="item-list-right">
-                                            <h4>Sacral Metatron</h4>
-                                            <p>Hannah Zeo</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1.003 ETH</td>
-                                <td>0.03 ETH</td>
-                                <td>17.00 ETH</td>
-                              </tr>
-
-                              <tr>
-
-                                <td>
-                                    <div className="recent-item-list">
-                                        <div className="list-rank-count">
-                                            <span>X1</span>
-                                        </div>
-                                        <div className="item-list-left">
-                                            <img src="./assets/img/action/3.png" alt=""/>
-                                        </div>
-                                        <div className="item-list-right">
-                                            <h4>Sacral Metatron</h4>
-                                            <p>Hannah Zeo</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1.003 ETH</td>
-                                <td>0.03 ETH</td>
-                                <td>17.00 ETH</td>
-                              </tr>
-                              <tr>
-
-                                <td>
-                                    <div className="recent-item-list">
-                                        <div className="list-rank-count">
-                                            <span>X1</span>
-                                        </div>
-                                        <div className="item-list-left">
-                                            <img src="./assets/img/action/3.png" alt=""/>
-                                        </div>
-                                        <div className="item-list-right">
-                                            <h4>Sacral Metatron</h4>
-                                            <p>Hannah Zeo</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1.003 ETH</td>
-                                <td>0.03 ETH</td>
-                                <td>17.00 ETH</td>
-                              </tr>
-                              
-
-                              <tr>
-
-                                <td>
-                                    <div className="recent-item-list">
-                                        <div className="list-rank-count">
-                                            <span>X1</span>
-                                        </div>
-                                        <div className="item-list-left">
-                                            <img src="./assets/img/action/3.png" alt=""/>
-                                        </div>
-                                        <div className="item-list-right">
-                                            <h4>Sacral Metatron</h4>
-                                            <p>Hannah Zeo</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1.003 ETH</td>
-                                <td>0.03 ETH</td>
-                                <td>17.00 ETH</td>
-                              </tr>
-                            </tbody>
-                          </table>
+                <div className="recent-head-title">
+                  <h2>List Users</h2>
+                </div>
+                <div className="user-list-all-items">
+                  <div className="list-user-item-btn">
+                    <button className="custom-btn">
+                      <span>From</span>
+                    </button>
+                  </div>
+                  <div className="list-user-item-btn">
+                    <button className="custom-btn">
+                      <span>To</span>
+                    </button>
+                  </div>
+                  <div className="recent-select-item user-list-select-item">
+                    <select
+                      className="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>select Option</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div className="list-search-btn">
+                    <button className="custom-btn">
+                      <span>Search</span>
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div class="list-read-more">
-                    <a href="" className="custom-btn"><span>Read More</span></a>
-                   </div>
+              <div className="recent-bids-table cpy-4">
+                <div className="table-responsive">
+                  <table className="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Owner</th>
+                        <th scope="col">NFTs Sold</th>
+                        <th scope="col">Primary Sales</th>
+                        <th scope="col">Secondary Sales</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div className="recent-item-list">
+                            <div className="list-rank-count">
+                              <span>X1</span>
+                            </div>
+                            <div className="item-list-left">
+                              <img src="./assets/img/action/3.png" alt="" />
+                            </div>
+                            <div className="item-list-right">
+                              <h4>Sacral Metatron</h4>
+                              <p>Hannah Zeo</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1.003 ETH</td>
+                        <td>0.03 ETH</td>
+                        <td>17.00 ETH</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div className="recent-item-list">
+                            <div className="list-rank-count">
+                              <span>X1</span>
+                            </div>
+                            <div className="item-list-left">
+                              <img src="./assets/img/action/3.png" alt="" />
+                            </div>
+                            <div className="item-list-right">
+                              <h4>Sacral Metatron</h4>
+                              <p>Hannah Zeo</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1.003 ETH</td>
+                        <td>0.03 ETH</td>
+                        <td>17.00 ETH</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div className="recent-item-list">
+                            <div className="list-rank-count">
+                              <span>X1</span>
+                            </div>
+                            <div className="item-list-left">
+                              <img src="./assets/img/action/3.png" alt="" />
+                            </div>
+                            <div className="item-list-right">
+                              <h4>Sacral Metatron</h4>
+                              <p>Hannah Zeo</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1.003 ETH</td>
+                        <td>0.03 ETH</td>
+                        <td>17.00 ETH</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div className="recent-item-list">
+                            <div className="list-rank-count">
+                              <span>X1</span>
+                            </div>
+                            <div className="item-list-left">
+                              <img src="./assets/img/action/3.png" alt="" />
+                            </div>
+                            <div className="item-list-right">
+                              <h4>Sacral Metatron</h4>
+                              <p>Hannah Zeo</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1.003 ETH</td>
+                        <td>0.03 ETH</td>
+                        <td>17.00 ETH</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div className="list-read-more">
+                <a href="" className="custom-btn">
+                  <span>Read More</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

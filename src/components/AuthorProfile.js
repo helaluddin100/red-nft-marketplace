@@ -45,7 +45,7 @@ function AuthorProfile() {
                       <div className="wollate-link">
                         <a href="">
                           DdzFFzCqrhshMSx....
-                          <i class="icofont-file-alt"></i>
+                          <i className="icofont-file-alt"></i>
                         </a>
                       </div>
                     </div>
@@ -57,22 +57,22 @@ function AuthorProfile() {
                       <ul className="author-social-ul">
                         <li>
                           <a href="" className="social-link">
-                            <i class="icofont-facebook"></i>
+                            <i className="icofont-facebook"></i>
                           </a>
                         </li>
                         <li>
                           <a href="" className="social-link">
-                            <i class="icofont-twitter"></i>
+                            <i className="icofont-twitter"></i>
                           </a>
                         </li>
                         <li>
                           <a href="" className="social-link">
-                            <i class="icofont-instagram"></i>
+                            <i className="icofont-instagram"></i>
                           </a>
                         </li>
                         <li>
                           <a href="" className="social-link">
-                            <i class="icofont-twitch"></i>
+                            <i className="icofont-twitch"></i>
                           </a>
                         </li>
                       </ul>
@@ -203,7 +203,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -290,7 +290,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -377,7 +377,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -464,7 +464,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -551,7 +551,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -638,7 +638,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -725,7 +725,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -812,7 +812,7 @@ function AuthorProfile() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>

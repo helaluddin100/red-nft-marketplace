@@ -20,11 +20,11 @@ function Create() {
       {/*
             <!-- =============page banner end================ -->*/}
       {/* <!-- ==============profile area========== --> */}
-      <div class="profile-area cpy-6">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-xl-3 col-md-12 mb-4">
-              <h4 class="sm-title mb-3">Preview item</h4>
+      <div className="profile-area cpy-6">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-xl-3 col-md-12 mb-4">
+              <h4 className="sm-title mb-3">Preview item</h4>
               <div className="product-card">
                 <div className="product-image">
                   <a href="" className="product-link">
@@ -105,36 +105,36 @@ function Create() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-8 col-xl-9 col-md-12">
-              <h4 class="sm-title mb-3">Choice your Cover image</h4>
-              <div class="row">
-                <div class="col-md-12 mb-4">
-                  <div class="profile-image-upload-card">
-                    <div class="form-group">
+            <div className="col-lg-8 col-xl-9 col-md-12">
+              <h4 className="sm-title mb-3">Choice your Cover image</h4>
+              <div className="row">
+                <div className="col-md-12 mb-4">
+                  <div className="profile-image-upload-card">
+                    <div className="form-group">
                       <input
                         type="file"
                         name="file-7[]"
                         id="file-8"
-                        class="inputfile"
+                        className="inputfile"
                         multiple
                       />
                       <label for="file-8">
-                        <span class="archive-name">Upload File</span>
+                        <span className="archive-name">Upload File</span>
                       </label>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="form-info mt-5">
-                <div class="row">
+              <div className="form-info mt-5">
+                <div className="row">
                   <div className="col-md-12">
                     <div className="input-title">
                       <p>Select method</p>
@@ -225,10 +225,10 @@ function Create() {
                     <div className="input-title">
                       <p>Price</p>
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Enter price for one item (ETH)"
                       />
@@ -238,10 +238,10 @@ function Create() {
                     <div className="input-title">
                       <p>Title</p>
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Item Name"
                       />
@@ -256,7 +256,7 @@ function Create() {
                         name=""
                         id=""
                         cols="30"
-                        class="form-control"
+                        className="form-control"
                         rows="5"
                         placeholder="e.g. “This is very limited item”"
                       ></textarea>
@@ -269,10 +269,10 @@ function Create() {
                           <div className="input-title">
                             <p>Royalties</p>
                           </div>
-                          <div class="mb-3">
+                          <div className="mb-3">
                             <input
                               type="text"
-                              class="form-control"
+                              className="form-control"
                               id="email"
                               placeholder="5%"
                             />
@@ -284,10 +284,10 @@ function Create() {
                           <div className="input-title">
                             <p>Size</p>
                           </div>
-                          <div class="mb-3">
+                          <div className="mb-3">
                             <input
                               type="text"
-                              class="form-control"
+                              className="form-control"
                               id="email"
                               placeholder="e.g. “size”"
                             />
@@ -299,35 +299,35 @@ function Create() {
                           <div className="input-title">
                             <p>Size</p>
                           </div>
-                          <div class="select-item">
-                            <div class="select-menu">
-                              <div class="select-menu-inner">
+                          <div className="select-item">
+                            <div className="select-menu">
+                              <div className="select-menu-inner">
                                 <p>All Artworks </p>
-                                <i class="icofont-simple-down"></i>
+                                <i className="icofont-simple-down"></i>
                               </div>
-                              <ul class="dp-menu">
+                              <ul className="dp-menu">
                                 <li>
-                                  <a href="" class="dp-link">
+                                  <a href="" className="dp-link">
                                     Abstraction
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="" class="dp-link">
+                                  <a href="" className="dp-link">
                                     Skecthify
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="" class="dp-link">
+                                  <a href="" className="dp-link">
                                     Patternlicious
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="" class="dp-link">
+                                  <a href="" className="dp-link">
                                     Virtuland
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="" class="dp-link">
+                                  <a href="" className="dp-link">
                                     Papercut
                                   </a>
                                 </li>

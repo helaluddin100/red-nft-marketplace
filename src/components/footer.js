@@ -3,54 +3,54 @@ import { HashLink } from "react-router-hash-link";
 function Footer() {
   return (
     <footer>
-      <div class="footer-sec cpt-6">
-        <div class="container">
-          <div class="top-footer mb-3">
-            <div class="row">
-              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
-                <div class="foot-content">
-                  <div class="footer-title">
+      <div className="footer-sec cpt-6">
+        <div className="container">
+          <div className="top-footer mb-3">
+            <div className="row">
+              <div className="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div className="foot-content">
+                  <div className="footer-title">
                     <img
                       src="assets/img/logo/logo-2.png"
                       alt="Image not found"
                     />
                   </div>
-                  <p class="footer-des">
+                  <p className="footer-des">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis{" "}
                   </p>
 
-                  <div class="social">
-                    <ul class="social-ul">
+                  <div className="social">
+                    <ul className="social-ul">
                       <li>
-                        <a href="" class="social-link">
-                          <i class="icofont-facebook"></i>
+                        <a href="" className="social-link">
+                          <i className="icofont-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="" class="social-link">
-                          <i class="icofont-twitter"></i>
+                        <a href="" className="social-link">
+                          <i className="icofont-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="" class="social-link">
-                          <i class="icofont-linkedin"></i>
+                        <a href="" className="social-link">
+                          <i className="icofont-linkedin"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="" class="social-link">
-                          <i class="icofont-pinterest"></i>
+                        <a href="" className="social-link">
+                          <i className="icofont-pinterest"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
-                <div class="foot-content">
-                  <div class="footer-title">
-                    <h3 class="f-title">My Account</h3>
+              <div className="col-md-6 col-lg-2 mb-4 col-sm-6">
+                <div className="foot-content">
+                  <div className="footer-title">
+                    <h3 className="f-title">My Account</h3>
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
@@ -77,67 +77,67 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
-                <div class="foot-content">
-                  <div class="footer-title">
-                    <h3 class="f-title">Resources</h3>
+              <div className="col-md-6 col-lg-2 mb-4 col-sm-6">
+                <div className="foot-content">
+                  <div className="footer-title">
+                    <h3 className="f-title">Resources</h3>
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <Link to="/help">
                         <a href="" class="footer-link">
-                         Help & Support
+                          Help & Support
                         </a>
                       </Link>
                     </li>
-                    <li class="footer-list">                 
+                    <li class="footer-list">
                       <Link to="/action">
                         <a href="" class="footer-link">
-                        Live Auctions
+                          Live Auctions
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/item">
                         <a href="" class="footer-link">
-                        Item Details
+                          Item Details
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/activity">
                         <a href="" class="footer-link">
-                        Activity
+                          Activity
                         </a>
                       </Link>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
-                <div class="foot-content">
-                  <div class="footer-title">
-                    <h3 class="f-title">Company</h3>
+              <div className="col-md-6 col-lg-2 mb-4 col-sm-6">
+                <div className="foot-content">
+                  <div className="footer-title">
+                    <h3 className="f-title">Company</h3>
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <Link to="">
                         <a href="" class="footer-link">
-                        About Us
+                          About Us
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/contact">
                         <a href="" class="footer-link">
-                        Contact Us
+                          Contact Us
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="">
                         <a href="" class="footer-link">
-                        Our Blog
+                          Our Blog
                         </a>
                       </Link>
                     </li>
@@ -150,23 +150,23 @@ function Footer() {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
-                <div class="foot-content">
-                  <div class="footer-title">
-                    <h3 class="f-title">Newsletter</h3>
+              <div className="col-md-6 col-lg-3 mb-4 col-sm-6">
+                <div className="foot-content">
+                  <div className="footer-title">
+                    <h3 className="f-title">Newsletter</h3>
                   </div>
-                  <p class="footer-des">
+                  <p className="footer-des">
                     Fill their seed open meat. Sea you great Saw image stl
                   </p>
 
-                  <div class="search-box">
-                    <form method="post" class="subscribe-box">
+                  <div className="search-box">
+                    <form method="post" className="subscribe-box">
                       <input
                         type="text"
-                        class="form-control subscribe"
+                        className="form-control subscribe"
                         placeholder="Search..."
                       />
-                      <button class="subscribe-btn" type="submit">
+                      <button className="subscribe-btn" type="submit">
                         <svg
                           width="20"
                           height="20"
@@ -187,11 +187,11 @@ function Footer() {
             </div>
           </div>
 
-          <div class="copy-right">
-            <p class="copy-text">
+          <div className="copy-right">
+            <p className="copy-text">
               Copyright 2021, NFT Constructer All Rights Reserved.
             </p>
-            {/* <ul class="f-foot-ul">
+            {/* <ul className="f-foot-ul">
               <li>
                 <a href="">About us</a>
               </li>
