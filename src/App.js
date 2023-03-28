@@ -21,6 +21,7 @@ import Bids from "./components/dashboard/Bids";
 import Saved from "./components/dashboard/Saved";
 import User_list from "./components/dashboard/User_list";
 import UserWallet from "./components/dashboard/User-wallet";
+import Ranking from "./components/Ranking";
 function App() {
   return (
     <Router>
@@ -68,19 +69,22 @@ function App() {
             <EditProfile />
           </Route>
           <Route exact path="/user-admin">
-            <User_admin/>
+            <User_admin />
           </Route>
           <Route exact path="/bids">
-            <Bids/>
+            <Bids />
           </Route>
           <Route exact path="/saved">
-            <Saved/>
+            <Saved />
           </Route>
           <Route exact path="/user-list">
-            <User_list/>
+            <User_list />
           </Route>
           <Route exact path="/user-wallet">
-            <UserWallet/>
+            <UserWallet />
+          </Route>
+          <Route exact path="/ranking">
+            <Ranking />
           </Route>
         </Switch>
 
