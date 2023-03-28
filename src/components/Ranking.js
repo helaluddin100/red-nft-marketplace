@@ -85,10 +85,15 @@ function ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -96,7 +101,8 @@ function ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -131,10 +137,15 @@ function ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -142,7 +153,8 @@ function ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -177,10 +189,15 @@ function ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -188,7 +205,8 @@ function ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -223,10 +241,15 @@ function ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -234,7 +257,8 @@ function ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
                   </tr>
@@ -269,10 +293,15 @@ function ranking() {
                         <span> -35.75%</span>
                       </div>
                     </td>
-                    <td> <div class="red-vat">
+                    <td>
+                      {" "}
+                      <div class="red-vat">
                         <span> -35.75%</span>
-                      </div></td>
-                    <td>    <div class="collection-price">
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div class="collection-price">
                         <div class="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
@@ -280,10 +309,11 @@ function ranking() {
                           />
                         </div>
                         <span>30,6453.01</span>
-                      </div></td>
+                      </div>
+                    </td>
                     <td>2K</td>
                     <td>10.5K</td>
-                  </tr>           
+                  </tr>
                 </tbody>
               </table>
             </div>
