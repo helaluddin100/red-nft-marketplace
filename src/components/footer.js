@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 function Footer() {
   return (
     <footer>
@@ -45,75 +47,97 @@ function Footer() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
                 <div class="foot-content">
                   <div class="footer-title">
-                    <h3 class="f-title">About Us</h3>
+                    <h3 class="f-title">My Account</h3>
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
+                    <Link to="/author">
+                    <a href="" class="footer-link">
+                      Authors
+                      </a>
+                </Link>
+                    </li>
+                    <li class="footer-list">
+                    <Link to="/author">
+                    <a href="" class="footer-link">
+                    Collection
+                      </a>
+                </Link>
+                    </li>
+                    <li class="footer-list">
+                    <Link to="/author">
+                    <a href="" class="footer-link">
+                    Author Profile
+                      </a>
+                </Link>
                       <a href="" class="footer-link">
-                        Blog & Articles
+                      
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        Vintage Stores
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                        Trekking
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                        Sightseeing
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                        Tours
+                      Create Collection
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-3 mb-4 col-sm-6">
+              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
                 <div class="foot-content">
                   <div class="footer-title">
-                    <h3 class="f-title">Information</h3>
+                    <h3 class="f-title">Resources</h3>
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        Protocol Explore
+                      Help & Support
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        System Token
+                      Live Auctions
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        Otimize Time
+                      Item Details
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        Visual Checking
+                      Activity
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-2 mb-4 col-sm-6">
+                <div class="foot-content">
+                  <div class="footer-title">
+                    <h3 class="f-title">Company</h3>
+                  </div>
+                  <ul class="footer-menu">
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                      About Us
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        Fadeup System
+                      Contact Us
                       </a>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                        {" "}
-                        Activity Log
+                      Our Blog
+                      </a>
+                    </li>
+                    <li class="footer-list">
+                      <a href="" class="footer-link">
+                      Discover
                       </a>
                     </li>
                   </ul>
@@ -159,9 +183,9 @@ function Footer() {
 
           <div class="copy-right">
             <p class="copy-text">
-              Copyright 2021, Devinigne All Rights Reserved.
+              Copyright 2021, NFT Constructer All Rights Reserved.
             </p>
-            <ul class="f-foot-ul">
+            {/* <ul class="f-foot-ul">
               <li>
                 <a href="">About us</a>
               </li>
@@ -174,7 +198,7 @@ function Footer() {
               <li>
                 <a href="">Contact Us</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
