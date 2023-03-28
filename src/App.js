@@ -16,7 +16,6 @@ import Contact from "./components/Contact";
 
 import AuthorProfile from "./components/AuthorProfile";
 import EditProfile from "./components/EditProfile";
-import Ranking from "./components/Ranking";
 import User_admin from "./components/dashboard/User_admin";
 import Bids from "./components/dashboard/Bids";
 import Saved from "./components/dashboard/Saved";
