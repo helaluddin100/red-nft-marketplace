@@ -108,8 +108,8 @@ function Explore() {
             <div className="banner-inner">
               <h2>Explore</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Explore </p>
+              <Link to="/">Home</Link>
+                <p>/ Explore / Explore </p>
               </div>
             </div>
           </div>

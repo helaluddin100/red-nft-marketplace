@@ -111,8 +111,8 @@ function Action() {
             <div className="banner-inner">
               <h2>Auctions</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Auctions </p>
+              <Link to="/">Home</Link>
+                <p>/ Explore / Auctions </p>
               </div>
             </div>
           </div>

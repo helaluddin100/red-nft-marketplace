@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Create() {
   return (
     <>
@@ -9,8 +10,8 @@ function Create() {
             <div className="banner-inner">
               <h2>Create Item</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Create Item </p>
+              <Link to="/">Home</Link>
+                <p>/ Pages / Create Item </p>
               </div>
             </div>
           </div>

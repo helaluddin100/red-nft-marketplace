@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 function Footer() {
   return (
     <footer>
@@ -54,33 +54,25 @@ function Footer() {
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
-                    <Link to="/author">
-                    <a href="" class="footer-link">
-                      Authors
-                      </a>
-                </Link>
+                      <Link to="/author">
+                        <a href="" class="footer-link">
+                          Authors
+                        </a>
+                      </Link>
                     </li>
                     <li class="footer-list">
-                    <Link to="/author">
-                    <a href="" class="footer-link">
-                    Collection
-                      </a>
-                </Link>
+                      <Link to="">
+                        <a href="" class="footer-link">
+                          Collection
+                        </a>
+                      </Link>
                     </li>
                     <li class="footer-list">
-                    <Link to="/author">
-                    <a href="" class="footer-link">
-                    Author Profile
-                      </a>
-                </Link>
-                      <a href="" class="footer-link">
-                      
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Create Collection
-                      </a>
+                      <Link to="/create">
+                        <a href="" class="footer-link">
+                          Create Collection
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -92,24 +84,32 @@ function Footer() {
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Help & Support
-                      </a>
+                      <Link to="/help">
+                        <a href="" class="footer-link">
+                         Help & Support
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="footer-list">                 
+                      <Link to="/action">
+                        <a href="" class="footer-link">
+                        Live Auctions
+                        </a>
+                      </Link>
                     </li>
                     <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Live Auctions
-                      </a>
+                      <Link to="/item">
+                        <a href="" class="footer-link">
+                        Item Details
+                        </a>
+                      </Link>
                     </li>
                     <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Item Details
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Activity
-                      </a>
+                      <Link to="/activity">
+                        <a href="" class="footer-link">
+                        Activity
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -121,23 +121,29 @@ function Footer() {
                   </div>
                   <ul class="footer-menu">
                     <li class="footer-list">
-                      <a href="" class="footer-link">
-                      About Us
-                      </a>
+                      <Link to="">
+                        <a href="" class="footer-link">
+                        About Us
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="footer-list">
+                      <Link to="/contact">
+                        <a href="" class="footer-link">
+                        Contact Us
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="footer-list">
+                      <Link to="">
+                        <a href="" class="footer-link">
+                        Our Blog
+                        </a>
+                      </Link>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-                      Contact Us
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Our Blog
-                      </a>
-                    </li>
-                    <li class="footer-list">
-                      <a href="" class="footer-link">
-                      Discover
+                        Discover
                       </a>
                     </li>
                   </ul>

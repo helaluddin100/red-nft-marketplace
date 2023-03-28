@@ -51,11 +51,11 @@ function Header() {
             </div>
             <ul className="menu-nav-ul">
               <li className="nav-list">
-                <Link to="/">
+                <HashLink to="/">
                   <a href="" className="nav-link">
                     Home
                   </a>
-                </Link>
+                </HashLink>
               </li>
               <li className="nav-list">
              
@@ -105,16 +105,6 @@ function Header() {
                          <HashLink to='/help' className='dp-link' onClick={_toggleSidebar}>
                         Help Center
                          </HashLink>
-                        </li>
-                        <li>
-                        <HashLink to='/explore' className='dp-link' onClick={_toggleSidebar}>
-                        Explore
-                         </HashLink>
-                        </li>                    
-                        <li>
-                        <HashLink to='/action' className='dp-link' onClick={_toggleSidebar}>
-                        Auctions
-                         </HashLink>
                         </li>                    
                       </ul>
                     </div>
@@ -129,11 +119,17 @@ function Header() {
                         <i class="icofont-simple-down"></i>
                       </div>
                       <ul className="dp-menu">
+                      <li>
+                        <HashLink to='/user-admin' className='dp-link' onClick={_toggleSidebar}>
+                       User Admin
+                         </HashLink>
+                        </li>
                         <li>
                          <HashLink to='/author' className='dp-link' onClick={_toggleSidebar}>
                         Authors
                          </HashLink>
                         </li>
+                        
                         <li>
                         <HashLink to='/ranking' className='dp-link' onClick={_toggleSidebar}>
                       Ranking
@@ -154,6 +150,7 @@ function Header() {
                        Wallet Connect
                          </HashLink>
                         </li>
+                      
                       </ul>
                     </div>
                   </div>

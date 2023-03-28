@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function EditProfile() {
   return (
@@ -10,8 +11,8 @@ function EditProfile() {
             <div className="banner-inner">
               <h2>Edit Profile</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Edit Profile </p>
+              <Link to="/">Home</Link>
+                <p>/ Pages / Edit Profile </p>
               </div>
             </div>
           </div>

@@ -117,8 +117,8 @@ function Item() {
             <div className="banner-inner">
               <h2>Item Details</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Item Details </p>
+                <Link to="/">Home</Link>
+                <p> / Explore / Item Details </p>
               </div>
             </div>
           </div>
@@ -527,7 +527,7 @@ function Item() {
                 }}
               >
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -609,7 +609,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -691,7 +691,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -773,7 +773,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -855,7 +855,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -937,7 +937,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img

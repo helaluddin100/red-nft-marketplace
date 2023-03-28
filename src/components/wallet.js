@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Wallet() {
   return (
     <>
@@ -9,8 +11,8 @@ function Wallet() {
             <div className="banner-inner">
               <h2>Connect wallet</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Connect wallet </p>
+              <Link to="/">Home</Link>
+                <p>/ Pages / Connect wallet </p>
               </div>
             </div>
           </div>

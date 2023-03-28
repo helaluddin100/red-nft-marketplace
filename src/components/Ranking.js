@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ranking() {
   return (
@@ -10,8 +11,8 @@ function ranking() {
             <div className="banner-inner">
               <h2>Help Center</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Ranking </p>
+              <Link to="/">Home</Link>
+                <p>/ Pages / Ranking </p>
               </div>
             </div>
           </div>

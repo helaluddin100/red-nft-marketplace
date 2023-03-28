@@ -5,6 +5,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { Link } from "react-router-dom";
+
 function Author() {
   return (
     <div>
@@ -15,8 +17,8 @@ function Author() {
             <div className="banner-inner">
               <h2>Authors</h2>
               <div className="page-route">
-                <a href="">Home </a>
-                <p> / Authors </p>
+              <Link to="/">Home</Link>
+                <p>/ Pages / Authors </p>
               </div>
             </div>
           </div>
