@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const [navActive, setNavActive] = useState(false);
@@ -32,15 +32,15 @@ function Header() {
               <img src="assets/img/logo/logo-2.png" alt="" />
             </a>
           </div>
-          <div class="search-box header-search-box">
-            <form method="post" class="search-form">
+          <div className="search-box header-search-box">
+            <form method="post" className="search-form">
               <input
                 type="text"
-                class="form-control search-input"
+                className="form-control search-input"
                 placeholder="Search..."
               />
-              <button class="search-btn" type="submit">
-                <i class="icofont-search-1"></i>
+              <button className="search-btn" type="submit">
+                <i className="icofont-search-1"></i>
               </button>
             </form>
           </div>
@@ -58,42 +58,54 @@ function Header() {
                 </HashLink>
               </li>
               <li className="nav-list">
-             
-              <div class="select nav-select-item">
-                    <div className="select-menu">
-                      <div className="select-menu-inner">
-                        <p>Explore</p>
-                        <i class="icofont-simple-down"></i>
-                      </div>
-                      <ul className="dp-menu">
-                        <li>
-                         <HashLink to='/item' className='dp-link' onClick={_toggleSidebar}>
-                        Item Details
-                         </HashLink>
-                        </li>
-                        <li>
-                        <HashLink to='/explore' className='dp-link' onClick={_toggleSidebar}>
-                        Explore
-                         </HashLink>
-                        </li>                    
-                        <li>
-                        <HashLink to='/action' className='dp-link' onClick={_toggleSidebar}>
-                        Auctions
-                         </HashLink>
-                        </li>                    
-                      </ul>
+                <div className="select nav-select-item">
+                  <div className="select-menu">
+                    <div className="select-menu-inner">
+                      <p>Explore</p>
+                      <i className="icofont-simple-down"></i>
                     </div>
+                    <ul className="dp-menu">
+                      <li>
+                        <HashLink
+                          to="/item"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Item Details
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/explore"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Explore
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/action"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Auctions
+                        </HashLink>
+                      </li>
+                    </ul>
                   </div>
+                </div>
               </li>
               <li className="nav-list">
                 <HashLink to="/activity" onClick={_toggleSidebar}>
                   <a href="" className="nav-link">
-                  Activity               
+                    Activity
                   </a>
                 </HashLink>
               </li>
-             
+
               <li className="nav-list">
+<<<<<<< HEAD
               <div class="select nav-select-item">
                     <div className="select-menu">
                       <div className="select-menu-inner">
@@ -107,10 +119,48 @@ function Header() {
                          </HashLink>
                         </li>                    
                       </ul>
+=======
+                <div className="select nav-select-item">
+                  <div className="select-menu">
+                    <div className="select-menu-inner">
+                      <p>Community</p>
+                      <i className="icofont-simple-down"></i>
+>>>>>>> Dev-Helal
                     </div>
+                    <ul className="dp-menu">
+                      <li>
+                        <HashLink
+                          to="/help"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Help Center
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/explore"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Explore
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/action"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Auctions
+                        </HashLink>
+                      </li>
+                    </ul>
                   </div>
+                </div>
               </li>
               <li className="nav-list">
+<<<<<<< HEAD
              
                 <div class="select nav-select-item">
                     <div className="select-menu">
@@ -152,14 +202,68 @@ function Header() {
                         </li>
                       
                       </ul>
+=======
+                <div className="select nav-select-item">
+                  <div className="select-menu">
+                    <div className="select-menu-inner">
+                      <p>Pages</p>
+                      <i className="icofont-simple-down"></i>
+>>>>>>> Dev-Helal
                     </div>
+                    <ul className="dp-menu">
+                      <li>
+                        <HashLink
+                          to="/author"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Authors
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/ranking"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Ranking
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/edit-profile"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          User Profile
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/create"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Create Items
+                        </HashLink>
+                      </li>
+                      <li>
+                        <HashLink
+                          to="/wallet"
+                          className="dp-link"
+                          onClick={_toggleSidebar}
+                        >
+                          Wallet Connect
+                        </HashLink>
+                      </li>
+                    </ul>
                   </div>
-               
+                </div>
               </li>
               <li className="nav-list">
                 <HashLink to="/contact" onClick={_toggleSidebar}>
                   <a href="" className="nav-link">
-                  Contacts
+                    Contacts
                   </a>
                 </HashLink>
               </li>
@@ -168,11 +272,11 @@ function Header() {
               <span>Connect Wallet</span>
             </a>
           </div>
-  
+
           <div className="wallet-btn m-none">
             <a href="" className="custom-btn-alt">
               <span>
-                <i class="icofont-wallet"></i> Connect Wallet
+                <i className="icofont-wallet"></i> Connect Wallet
               </span>
             </a>
           </div>

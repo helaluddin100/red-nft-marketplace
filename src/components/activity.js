@@ -124,8 +124,8 @@ function Activity() {
                   </li>
                 </ul>
               </div>
-              <div class="load-more-area mt-4">
-                <a href="" class="custom-btn">
+              <div className="load-more-area mt-4">
+                <a href="" className="custom-btn">
                   <span>Load More</span>
                 </a>
               </div>
@@ -133,14 +133,14 @@ function Activity() {
             <div className="col-lg-4 col-md-12">
               <div className="filter-sidebar">
                 <div className="form-filter">
-                  <form method="post" class="search-form input-search-from">
+                  <form method="post" className="search-form input-search-from">
                     <input
                       type="text"
-                      class="form-control search-input ss-input"
+                      className="form-control search-input ss-input"
                       placeholder="Enter your word art"
                     />
-                    <button class="search-btn ss-btn" type="submit">
-                      <i class="icofont-search-1"></i>
+                    <button className="search-btn ss-btn" type="submit">
+                      <i className="icofont-search-1"></i>
                     </button>
                   </form>
                 </div>

@@ -1,104 +1,104 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 function Explore() {
-    // Countdown
-    const [day1, setDay1] = useState(0);
-    const [day2, setDay2] = useState(0);
-  
-    const [hour1, setHour1] = useState(0);
-    const [hour2, setHour2] = useState(0);
-    const [hour3, setHour3] = useState(0);
-  
-    const [minute1, setMinute1] = useState(0);
-    const [minute2, setMinute2] = useState(0);
-  
-    const [second1, setSecond1] = useState(0);
-    const [second2, setSecond2] = useState(0);
-  
-    // Timer
-    const countDown = () => {
-      const dueDate = new Date("december 28, 2022 00:00").getTime();
-      const currentDate = new Date().getTime();
-  
-      const remainings = dueDate - currentDate;
-  
-      if (remainings > 0) {
-        let second = 1000;
-        let minute = second * 60;
-        let hour = minute * 60;
-        let day = hour * 24;
-  
-        // Remainings
-        let remainingDay = Math.floor(remainings / day);
-        let remainingHour = Math.floor((remainings % day) / hour);
-        let remainingMinute = Math.floor((remainings % hour) / minute);
-        let remainingSecond = Math.floor((remainings % minute) / second);
-  
-        // Day
-        let dayLength = remainingDay.toString().length;
-  
-        if (dayLength === 1) {
-          setDay1(0);
-          setDay2(remainingDay);
-        } else if (dayLength === 2) {
-          remainingDay = remainingDay.toString().split("");
-  
-          setDay1(remainingDay[0]);
-          setDay2(remainingDay[1]);
-        }
-  
-        // Hour
-        let hourLength = remainingHour.toString().length;
-  
-        if (hourLength === 1) {
-          setHour1(0);
-          setHour2(remainingHour);
-        } else if (hourLength === 2) {
-          remainingHour = remainingHour.toString().split("");
-  
-          setHour1(remainingHour[0]);
-          setHour2(remainingHour[1]);
-        }
-  
-        // Minute
-        let minuteLength = remainingMinute.toString().length;
-  
-        if (minuteLength === 1) {
-          setMinute1(0);
-          setMinute2(remainingMinute);
-        } else if (minuteLength === 2) {
-          remainingMinute = remainingMinute.toString().split("");
-  
-          setMinute1(remainingMinute[0]);
-          setMinute2(remainingMinute[1]);
-        }
-  
-        // Second
-        let secondLength = remainingSecond.toString().length;
-  
-        if (secondLength === 1) {
-          setSecond1(0);
-          setSecond2(remainingSecond);
-        } else if (secondLength === 2) {
-          remainingSecond = remainingSecond.toString().split("");
-  
-          setSecond1(remainingSecond[0]);
-          setSecond2(remainingSecond[1]);
-        }
-      } else {
+  // Countdown
+  const [day1, setDay1] = useState(0);
+  const [day2, setDay2] = useState(0);
+
+  const [hour1, setHour1] = useState(0);
+  const [hour2, setHour2] = useState(0);
+  const [hour3, setHour3] = useState(0);
+
+  const [minute1, setMinute1] = useState(0);
+  const [minute2, setMinute2] = useState(0);
+
+  const [second1, setSecond1] = useState(0);
+  const [second2, setSecond2] = useState(0);
+
+  // Timer
+  const countDown = () => {
+    const dueDate = new Date("december 28, 2022 00:00").getTime();
+    const currentDate = new Date().getTime();
+
+    const remainings = dueDate - currentDate;
+
+    if (remainings > 0) {
+      let second = 1000;
+      let minute = second * 60;
+      let hour = minute * 60;
+      let day = hour * 24;
+
+      // Remainings
+      let remainingDay = Math.floor(remainings / day);
+      let remainingHour = Math.floor((remainings % day) / hour);
+      let remainingMinute = Math.floor((remainings % hour) / minute);
+      let remainingSecond = Math.floor((remainings % minute) / second);
+
+      // Day
+      let dayLength = remainingDay.toString().length;
+
+      if (dayLength === 1) {
         setDay1(0);
-        setDay2(0);
-  
-        setHour1(0);
-        setHour2(0);
-  
-        setMinute1(0);
-        setMinute2(0);
-  
-        setSecond1(0);
-        setSecond2(0);
+        setDay2(remainingDay);
+      } else if (dayLength === 2) {
+        remainingDay = remainingDay.toString().split("");
+
+        setDay1(remainingDay[0]);
+        setDay2(remainingDay[1]);
       }
-    };
+
+      // Hour
+      let hourLength = remainingHour.toString().length;
+
+      if (hourLength === 1) {
+        setHour1(0);
+        setHour2(remainingHour);
+      } else if (hourLength === 2) {
+        remainingHour = remainingHour.toString().split("");
+
+        setHour1(remainingHour[0]);
+        setHour2(remainingHour[1]);
+      }
+
+      // Minute
+      let minuteLength = remainingMinute.toString().length;
+
+      if (minuteLength === 1) {
+        setMinute1(0);
+        setMinute2(remainingMinute);
+      } else if (minuteLength === 2) {
+        remainingMinute = remainingMinute.toString().split("");
+
+        setMinute1(remainingMinute[0]);
+        setMinute2(remainingMinute[1]);
+      }
+
+      // Second
+      let secondLength = remainingSecond.toString().length;
+
+      if (secondLength === 1) {
+        setSecond1(0);
+        setSecond2(remainingSecond);
+      } else if (secondLength === 2) {
+        remainingSecond = remainingSecond.toString().split("");
+
+        setSecond1(remainingSecond[0]);
+        setSecond2(remainingSecond[1]);
+      }
+    } else {
+      setDay1(0);
+      setDay2(0);
+
+      setHour1(0);
+      setHour2(0);
+
+      setMinute1(0);
+      setMinute2(0);
+
+      setSecond1(0);
+      setSecond2(0);
+    }
+  };
   return (
     <>
       {/* <!-- =============page banner==================== -->*/}
@@ -125,27 +125,27 @@ function Explore() {
               <div className="filtaring-category">
                 <ul className="cat-fil-link">
                   <li className="active">
-                    <a href="" class="tag-link">
+                    <a href="" className="tag-link">
                       All
                     </a>
                   </li>
                   <li>
-                    <a href="" class="tag-link">
+                    <a href="" className="tag-link">
                       Art
                     </a>
                   </li>
                   <li>
-                    <a href="" class="tag-link">
+                    <a href="" className="tag-link">
                       Music
                     </a>
                   </li>
                   <li>
-                    <a href="" class="tag-link">
+                    <a href="" className="tag-link">
                       Collectibles
                     </a>
                   </li>
                   <li>
-                    <a href="" class="tag-link">
+                    <a href="" className="tag-link">
                       Sports
                     </a>
                   </li>
@@ -153,11 +153,11 @@ function Explore() {
               </div>
               <div className="sort-by">
                 <div className="filter-btn">
-                  <div class="select">
+                  <div className="select">
                     <div className="select-menu">
                       <div className="select-menu-inner">
                         <p>All Artworks </p>
-                        <i class="icofont-simple-down"></i>
+                        <i className="icofont-simple-down"></i>
                       </div>
                       <ul className="dp-menu">
                         <li>
@@ -190,11 +190,11 @@ function Explore() {
                   </div>
                 </div>
                 <div className="filter-btn">
-                  <div class="select">
+                  <div className="select">
                     <div className="select-menu">
                       <div className="select-menu-inner">
                         <p>Sort by </p>
-                        <i class="icofont-simple-down"></i>
+                        <i className="icofont-simple-down"></i>
                       </div>
                       <ul className="dp-menu">
                         <li>
@@ -223,7 +223,7 @@ function Explore() {
             <div className="top-collection-slider">
               <div className="row">
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -305,7 +305,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -387,7 +387,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -469,7 +469,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -551,7 +551,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -633,7 +633,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -715,7 +715,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -797,7 +797,7 @@ function Explore() {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-3 mb-4">
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -880,8 +880,8 @@ function Explore() {
                 </div>
               </div>
 
-              <div class="load-more-area mt-4">
-                <a href="" class="custom-btn">
+              <div className="load-more-area mt-4">
+                <a href="" className="custom-btn">
                   <span>Load More</span>
                 </a>
               </div>
