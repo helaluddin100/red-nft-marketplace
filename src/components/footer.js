@@ -52,7 +52,6 @@ function Footer() {
                   <div className="footer-title">
                     <h3 className="f-title">My Account</h3>
                   </div>
-<<<<<<< HEAD
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <Link to="/author">
@@ -74,35 +73,6 @@ function Footer() {
                           Create Collection
                         </a>
                       </Link>
-=======
-                  <ul className="footer-menu">
-                    <li className="footer-list">
-                      <Link to="/author">
-                        <a href="" className="footer-link">
-                          Authors
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="footer-list">
-                      <Link to="/author">
-                        <a href="" className="footer-link">
-                          Collection
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="footer-list">
-                      <Link to="/author">
-                        <a href="" className="footer-link">
-                          Author Profile
-                        </a>
-                      </Link>
-                      <a href="" className="footer-link"></a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Create Collection
-                      </a>
->>>>>>> Dev-Helal
                     </li>
                   </ul>
                 </div>
@@ -112,57 +82,34 @@ function Footer() {
                   <div className="footer-title">
                     <h3 className="f-title">Resources</h3>
                   </div>
-<<<<<<< HEAD
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <Link to="/help">
                         <a href="" class="footer-link">
-                         Help & Support
+                          Help & Support
                         </a>
                       </Link>
                     </li>
-                    <li class="footer-list">                 
+                    <li class="footer-list">
                       <Link to="/action">
                         <a href="" class="footer-link">
-                        Live Auctions
+                          Live Auctions
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/item">
                         <a href="" class="footer-link">
-                        Item Details
+                          Item Details
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/activity">
                         <a href="" class="footer-link">
-                        Activity
+                          Activity
                         </a>
                       </Link>
-=======
-                  <ul className="footer-menu">
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Help & Support
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Live Auctions
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Item Details
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Activity
-                      </a>
->>>>>>> Dev-Helal
                     </li>
                   </ul>
                 </div>
@@ -172,51 +119,30 @@ function Footer() {
                   <div className="footer-title">
                     <h3 className="f-title">Company</h3>
                   </div>
-<<<<<<< HEAD
                   <ul class="footer-menu">
                     <li class="footer-list">
                       <Link to="">
                         <a href="" class="footer-link">
-                        About Us
+                          About Us
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="/contact">
                         <a href="" class="footer-link">
-                        Contact Us
+                          Contact Us
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <Link to="">
                         <a href="" class="footer-link">
-                        Our Blog
+                          Our Blog
                         </a>
                       </Link>
                     </li>
                     <li class="footer-list">
                       <a href="" class="footer-link">
-=======
-                  <ul className="footer-menu">
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        About Us
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Contact Us
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
-                        Our Blog
-                      </a>
-                    </li>
-                    <li className="footer-list">
-                      <a href="" className="footer-link">
->>>>>>> Dev-Helal
                         Discover
                       </a>
                     </li>

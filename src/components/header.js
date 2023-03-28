@@ -105,27 +105,11 @@ function Header() {
               </li>
 
               <li className="nav-list">
-<<<<<<< HEAD
-              <div class="select nav-select-item">
-                    <div className="select-menu">
-                      <div className="select-menu-inner">
-                        <p>Community</p>
-                        <i class="icofont-simple-down"></i>
-                      </div>
-                      <ul className="dp-menu">
-                        <li>
-                         <HashLink to='/help' className='dp-link' onClick={_toggleSidebar}>
-                        Help Center
-                         </HashLink>
-                        </li>                    
-                      </ul>
-=======
                 <div className="select nav-select-item">
                   <div className="select-menu">
                     <div className="select-menu-inner">
                       <p>Community</p>
                       <i className="icofont-simple-down"></i>
->>>>>>> Dev-Helal
                     </div>
                     <ul className="dp-menu">
                       <li>
@@ -160,55 +144,11 @@ function Header() {
                 </div>
               </li>
               <li className="nav-list">
-<<<<<<< HEAD
-             
-                <div class="select nav-select-item">
-                    <div className="select-menu">
-                      <div className="select-menu-inner">
-                        <p>Pages</p>
-                        <i class="icofont-simple-down"></i>
-                      </div>
-                      <ul className="dp-menu">
-                      <li>
-                        <HashLink to='/user-admin' className='dp-link' onClick={_toggleSidebar}>
-                       User Admin
-                         </HashLink>
-                        </li>
-                        <li>
-                         <HashLink to='/author' className='dp-link' onClick={_toggleSidebar}>
-                        Authors
-                         </HashLink>
-                        </li>
-                        
-                        <li>
-                        <HashLink to='/ranking' className='dp-link' onClick={_toggleSidebar}>
-                      Ranking
-                         </HashLink>
-                        </li>
-                        <li>
-                        <HashLink to='/edit-profile' className='dp-link' onClick={_toggleSidebar}>
-                      User Profile
-                         </HashLink>
-                        </li>
-                        <li>
-                        <HashLink to='/create' className='dp-link' onClick={_toggleSidebar}>
-                      Create Items
-                         </HashLink>
-                        </li>
-                        <li>
-                        <HashLink to='/wallet' className='dp-link' onClick={_toggleSidebar}>
-                       Wallet Connect
-                         </HashLink>
-                        </li>
-                      
-                      </ul>
-=======
                 <div className="select nav-select-item">
                   <div className="select-menu">
                     <div className="select-menu-inner">
                       <p>Pages</p>
                       <i className="icofont-simple-down"></i>
->>>>>>> Dev-Helal
                     </div>
                     <ul className="dp-menu">
                       <li>
