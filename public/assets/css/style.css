@@ -3674,3 +3674,9 @@ h4.modal-title {
 }
 
 /* =========== How It work end============= */
+
+a.tranding-cat-lin.active {
+  background: var(--main-color);
+  color: var(--white-color);
+  border-color: var(--main-color);
+}
