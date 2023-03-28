@@ -86,7 +86,7 @@ header.header.navbar-fixed {
     transition: 0.3s;
     margin-top: 35px;
     right: 0;
-    background: #FEDEDE;
+    background: var(--white-color);
 }
 
 a.dp-link {
@@ -163,7 +163,39 @@ li.nav-list:hover .dp-menu {
 .header-search-box {
     width: 224px !important;
 }
+.dp-menu.active {
+    display: block !important;
+}
 @media screen and (max-width: 1200px) {
+    .dp-menu {
+        width: -moz-fit-content;
+        width: fit-content;
+        display: none !important;
+        position: static;
+        position: initial;
+        background: var(--white-color);
+        border-radius: 12px;
+        right: 0;
+        width: 50%;
+        margin: auto;
+        transition: 0.3s;
+        opacity: 1 !important;
+        visibility: visible;
+        padding: 0 0 15px 0px;
+        padding-bottom: 29px;
+        overflow: hidden;
+        box-shadow: none;
+        z-index: 99;
+        left: 0;
+        text-align: center;
+    }
+    .connect-btn-mobile{
+        width: 300px;
+        margin: auto;
+    }
+    a.dp-link {
+        text-align: center !important;
+    }
     .m-none {
         display: none;
     }
@@ -214,6 +246,13 @@ li.nav-list:hover .dp-menu {
     }
     nav.navigation {
      gap: 22px;
+    }
+
+    .select:hover .select-menu .dp-menu {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 8px;
+        z-index: 1;
     }
 }
 

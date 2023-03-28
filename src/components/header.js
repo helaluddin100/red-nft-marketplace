@@ -22,6 +22,12 @@ function Header() {
   };
   console.log(activeIndex);
 
+  
+  const [dropdownActive, setDropdownActive] = useState();
+
+  // const _toggleDropdown = () => {
+  //   setDropdownActive(!dropdownActive);
+  // };
   return (
     // <!-- =====================Navigation=========== -->
     <header className="header">
@@ -50,14 +56,20 @@ function Header() {
               <i className="icofont-close"></i>
             </div>
             <ul className="menu-nav-ul">
-              <li className="nav-list">
+              <li className="nav-list" >
                 <HashLink to="/">
-                  <a href="" className="nav-link">
+                  <a href="" className="nav-link" onClick={_toggleSidebar}>
                     Home
                   </a>
                 </HashLink>
               </li>
-              <li className="nav-list">
+              <li className="nav-list" onClick={()=>{
+                if(dropdownActive === 1){
+                  setDropdownActive();
+                }else{
+                  setDropdownActive(1)
+                }
+              }}>
              
               <div class="select nav-select-item">
                     <div className="select-menu">
@@ -65,7 +77,11 @@ function Header() {
                         <p>Explore</p>
                         <i class="icofont-simple-down"></i>
                       </div>
-                      <ul className="dp-menu">
+                      <ul className={
+                          dropdownActive === 1
+                           ? "dp-menu active" : 
+                           "dp-menu"
+                        } >
                         <li>
                          <HashLink to='/item' className='dp-link' onClick={_toggleSidebar}>
                         Item Details
@@ -93,14 +109,24 @@ function Header() {
                 </HashLink>
               </li>
              
-              <li className="nav-list">
+              <li className="nav-list" onClick={()=>{
+                if(dropdownActive === 2){
+                  setDropdownActive();
+                }else{
+                  setDropdownActive(2)
+                }
+              }}>
               <div class="select nav-select-item">
                     <div className="select-menu">
                       <div className="select-menu-inner">
                         <p>Community</p>
                         <i class="icofont-simple-down"></i>
                       </div>
-                      <ul className="dp-menu">
+                      <ul className={
+                          dropdownActive === 2
+                           ? "dp-menu active" : 
+                           "dp-menu"
+                        }>
                         <li>
                          <HashLink to='/help' className='dp-link' onClick={_toggleSidebar}>
                         Help Center
@@ -110,7 +136,13 @@ function Header() {
                     </div>
                   </div>
               </li>
-              <li className="nav-list">
+              <li className="nav-list" onClick={()=>{
+                if(dropdownActive === 3){
+                  setDropdownActive();
+                }else{
+                  setDropdownActive(3)
+                }
+              }}>
              
                 <div class="select nav-select-item">
                     <div className="select-menu">
@@ -118,7 +150,11 @@ function Header() {
                         <p>Pages</p>
                         <i class="icofont-simple-down"></i>
                       </div>
-                      <ul className="dp-menu">
+                      <ul className={
+                          dropdownActive === 3
+                           ? "dp-menu active" : 
+                           "dp-menu"
+                        }>
                       <li>
                         <HashLink to='/user-admin' className='dp-link' onClick={_toggleSidebar}>
                        User Admin
@@ -145,11 +181,6 @@ function Header() {
                       Create Items
                          </HashLink>
                         </li>
-                        <li>
-                        <HashLink to='/wallet' className='dp-link' onClick={_toggleSidebar}>
-                       Wallet Connect
-                         </HashLink>
-                        </li>
                       
                       </ul>
                     </div>
@@ -164,17 +195,21 @@ function Header() {
                 </HashLink>
               </li>
             </ul>
-            <a href="" className="custom-btn l-none mt-3">
+           <Link to='/wallet' onClick={_toggleSidebar}>
+           <a href="" className="custom-btn l-none mt-3 connect-btn-mobile">
               <span>Connect Wallet</span>
             </a>
+           </Link>
           </div>
   
           <div className="wallet-btn m-none">
-            <a href="" className="custom-btn-alt">
+           <Link to='/wallet' onClick={_toggleSidebar}>
+           <a href="" className="custom-btn-alt">
               <span>
                 <i class="icofont-wallet"></i> Connect Wallet
               </span>
             </a>
+           </Link>
           </div>
           <div className="show-nav" onClick={_toggleSidebar}>
             <i className="icofont-navigation-menu"></i>
