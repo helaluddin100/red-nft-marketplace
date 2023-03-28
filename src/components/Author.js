@@ -345,91 +345,91 @@ function Author() {
       </div>
       {/* ====================top collection end =================== */}
       {/* ==============creator======================= */}
-      <section class="authors cpb-6">
-        <div class="container">
-          <div class="title">
+      <section className="authors cpb-6">
+        <div className="container">
+          <div className="title">
             <h1>Our Creator</h1>
           </div>
-          <div class="creators">
+          <div className="creators">
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/1.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/1.png" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/7.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img src="assets/img/inner/3.png" alt="" />
                   </div>
                 </div>
               </div>
             </div>
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/avater.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img
                       src="assets/img/inner/box-bottom-right-bottom-1.png"
                       alt=""
@@ -439,42 +439,42 @@ function Author() {
               </div>
             </div>
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/avater.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img
                       src="assets/img/inner/box-bottom-right-bottom-1.png"
                       alt=""
@@ -484,42 +484,42 @@ function Author() {
               </div>
             </div>
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/avater.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img
                       src="assets/img/inner/box-bottom-right-bottom-1.png"
                       alt=""
@@ -529,42 +529,42 @@ function Author() {
               </div>
             </div>
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/avater.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img
                       src="assets/img/inner/box-bottom-right-bottom-1.png"
                       alt=""
@@ -574,42 +574,42 @@ function Author() {
               </div>
             </div>
             {/* <!-- Creatob Box  --> */}
-            <div class="creator-box">
-              <div class="box-top">
-                <div class="top-left">
-                  <div class="profile">
-                    <div class="avatar">
+            <div className="creator-box">
+              <div className="box-top">
+                <div className="top-left">
+                  <div className="profile">
+                    <div className="avatar">
                       <img src="assets/img/inner/avater.png" alt="" />
                     </div>
-                    <div class="checkmark">
-                      <i class="fas fa-check-circle"></i>
+                    <div className="checkmark">
+                      <i className="fas fa-check-circle"></i>
                     </div>
                   </div>
-                  <div class="name">
+                  <div className="name">
                     <h1>Ralph Garraway</h1>
                     <p>12 item products</p>
                   </div>
                 </div>
-                <div class="top-right">
+                <div className="top-right">
                   <a href="" className="custom-btn">
                     <span>following</span>
                   </a>
                 </div>
               </div>
-              <div class="box-bottom">
-                <div class="bottom-left">
+              <div className="box-bottom">
+                <div className="bottom-left">
                   <img src="assets/img/inner/box-bottom-left.png" alt="" />
                 </div>
-                <div class="bottom-right">
-                  <div class="top">
-                    <div class="image">
+                <div className="bottom-right">
+                  <div className="top">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
-                    <div class="image">
+                    <div className="image">
                       <img src="assets/img/inner/9.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="bottom">
+                  <div className="bottom">
                     <img
                       src="assets/img/inner/box-bottom-right-bottom-1.png"
                       alt=""
@@ -620,8 +620,8 @@ function Author() {
             </div>
           </div>
 
-          <div class="load-more-area mt-4">
-            <a href="" class="custom-btn">
+          <div className="load-more-area mt-4">
+            <a href="" className="custom-btn">
               <span>Load More</span>
             </a>
           </div>

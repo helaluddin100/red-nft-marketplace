@@ -19,164 +19,164 @@ function EditProfile() {
       </div>
       {/* <!-- =============page banner end================ -->*/}
       {/* <!-- ==============profile area========== --> */}
-      <div class="profile-area cpy-6">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 mb-4">
-              <div class="product-card">
-                <div class="product-image">
-                  <a href="" class="product-link">
+      <div className="profile-area cpy-6">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-4 mb-4">
+              <div className="product-card">
+                <div className="product-image">
+                  <a href="" className="product-link">
                     <img
                       src="assets/img/product/2.png"
                       alt=""
-                      class="product"
+                      className="product"
                     />
                   </a>
                 </div>
-                <div class="product-des">
-                  <div class="form-group">
+                <div className="product-des">
+                  <div className="form-group">
                     <input
                       type="file"
                       name="file-7[]"
                       id="file-8"
-                      class="inputfile"
+                      className="inputfile"
                     />
                     <label for="file-8">
-                      <span class="file-up">Upload File</span>
+                      <span className="file-up">Upload File</span>
                     </label>
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <input
                       type="file"
                       name="file-7[]"
                       id="file-8"
-                      class="inputfile"
+                      className="inputfile"
                     />
                     <label for="file-8">
-                      <span class="file-up">Upload File</span>
+                      <span className="file-up">Upload File</span>
                     </label>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-8 col-lg-9">
-              <h4 class="sm-title mb-3">Choice your Cover image</h4>
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-                  <div class="profile-image-upload-card">
-                    <div class="form-group">
+            <div className="col-md-8 col-lg-9">
+              <h4 className="sm-title mb-3">Choice your Cover image</h4>
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
+                  <div className="profile-image-upload-card">
+                    <div className="form-group">
                       <input
                         type="file"
                         name="file-7[]"
                         id="file-8"
-                        class="inputfile"
+                        className="inputfile"
                         multiple=""
                       />
                       <label for="file-8">
-                        <span class="archive-name">Upload File</span>
+                        <span className="archive-name">Upload File</span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-                  <div class="profile-image-upload-card">
-                    <div class="form-group">
+                <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
+                  <div className="profile-image-upload-card">
+                    <div className="form-group">
                       <input
                         type="file"
                         name="file-7[]"
                         id="file-9"
-                        class="inputfile"
+                        className="inputfile"
                         multiple=""
                       />
                       <label for="file-9">
-                        <span class="archive-name">Upload File</span>
+                        <span className="archive-name">Upload File</span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-                  <div class="profile-image-upload-card">
-                    <div class="form-group">
+                <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
+                  <div className="profile-image-upload-card">
+                    <div className="form-group">
                       <input
                         type="file"
                         name="file-7[]"
                         id="file-10"
-                        class="inputfile"
+                        className="inputfile"
                         multiple=""
                       />
                       <label for="file-10">
-                        <span class="archive-name">Upload File</span>
+                        <span className="archive-name">Upload File</span>
                       </label>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="form-info mt-5">
-                <div class="row revers">
-                  <div class="col-md-6">
-                    <h4 class="sm-title mb-3">Account Information</h4>
-                    <div class="mb-3">
-                      <label for="name" class="form-label">
+              <div className="form-info mt-5">
+                <div className="row revers">
+                  <div className="col-md-6">
+                    <h4 className="sm-title mb-3">Account Information</h4>
+                    <div className="mb-3">
+                      <label for="name" className="form-label">
                         Display Name
                       </label>
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="name"
                         placeholder="Display Name"
                       />
                     </div>
-                    <div class="mb-3">
-                      <label for="url" class="form-label">
+                    <div className="mb-3">
+                      <label for="url" className="form-label">
                         Custom URL
                       </label>
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="url"
                         placeholder="Custom URL"
                       />
                     </div>
-                    <div class="mb-3">
-                      <label for="email" class="form-label">
+                    <div className="mb-3">
+                      <label for="email" className="form-label">
                         Email
                       </label>
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Email"
                       />
                     </div>
-                    <div class="mb-3">
-                      <label for="bio" class="form-label">
+                    <div className="mb-3">
+                      <label for="bio" className="form-label">
                         Bio
                       </label>
                       <textarea
                         name=""
                         id=""
                         cols="30"
-                        class="form-control"
+                        className="form-control"
                         rows="5"
                       ></textarea>
                     </div>
-                    <div class="mb-3">
-                      <button class="custom-btn" type="submit">
+                    <div className="mb-3">
+                      <button className="custom-btn" type="submit">
                         <span>Submit Details</span>
                       </button>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <h4 class="sm-title mb-3">Your Social media</h4>
-                    <div class="mb-3">
-                      <label for="facebook" class="form-label">
+                  <div className="col-md-6">
+                    <h4 className="sm-title mb-3">Your Social media</h4>
+                    <div className="mb-3">
+                      <label for="facebook" className="form-label">
                         Facebook
                       </label>
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="facebook"
                         placeholder="Facebook"
                       />
@@ -186,13 +186,13 @@ function EditProfile() {
                         <span>Connect to facebook</span>
                       </a>
                     </div>
-                    <div class="mb-3">
-                      <label for="Twitter" class="form-label">
+                    <div className="mb-3">
+                      <label for="Twitter" className="form-label">
                         Twitter
                       </label>
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="Twitter"
                         placeholder="Twitter"
                       />
@@ -203,13 +203,13 @@ function EditProfile() {
                       </a>
                     </div>
 
-                    <div class="mb-3">
-                      <label for="Discord" class="form-label">
+                    <div className="mb-3">
+                      <label for="Discord" className="form-label">
                         Connect to Discord
                       </label>
                       <input
                         type="Discord"
-                        class="form-control"
+                        className="form-control"
                         id="Discord"
                         placeholder="Discord Username"
                       />

@@ -41,20 +41,20 @@ function Contact() {
               <div className="row justify-content-center">
                 <div className="col-md-6">
                   <div className="col-md-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Your Full Name"
                       />
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="email"
                         placeholder="Your Email Address"
                       />
@@ -63,7 +63,7 @@ function Contact() {
                   <div className="col-md-12">
                     <div className="mb-3">
                       <select
-                        class="form-control"
+                        className="form-control"
                         aria-label="Default select example"
                       >
                         <option selected>Open this select menu</option>
@@ -74,13 +74,13 @@ function Contact() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <div className="mb-3">
                         <textarea
                           name=""
                           id=""
                           cols="30"
-                          class="form-control"
+                          className="form-control"
                           rows="5"
                           placeholder="e.g. “This is very limited item”"
                         ></textarea>
@@ -88,8 +88,8 @@ function Contact() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <div class="mb-3">
-                      <button type="submit" class="custom-btn">
+                    <div className="mb-3">
+                      <button type="submit" className="custom-btn">
                         <span>Send Message</span>
                       </button>
                     </div>

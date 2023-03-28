@@ -127,50 +127,50 @@ function Item() {
       {/*
     <!-- =============page banner end================ -->*/}
       {/* <!-- ============feature============== --> */}
-      <section class="item cpt-6">
-        <div class="container">
-          <div class="item-left">
-            <div class="item-img">
+      <section className="item cpt-6">
+        <div className="container">
+          <div className="item-left">
+            <div className="item-img">
               <img src="assets/img/collection/1.jpg" alt="" />
             </div>
           </div>
-          <div class="item-right">
-            <div class="figure-title">
-              <div class="title">
+          <div className="item-right">
+            <div className="figure-title">
+              <div className="title">
                 <h1>“The Pretty Fantasy Flower...”</h1>
               </div>
-              <div class="view-like">
-                <div class="view">
-                  <i class="icofont-eye-alt"></i>
+              <div className="view-like">
+                <div className="view">
+                  <i className="icofont-eye-alt"></i>
                   <span>225</span>
                 </div>
-                <div class="like">
-                  <i class="icofont-heart-alt"></i>
+                <div className="like">
+                  <i className="icofont-heart-alt"></i>
                   <span>100</span>
                 </div>
               </div>
             </div>
-            <div class="ownership">
-              <div class="owner">
-                <div class="avatar">
+            <div className="ownership">
+              <div className="owner">
+                <div className="avatar">
                   <img src="assets/img/inner/7.jpg" alt="" />
                 </div>
-                <div class="name">
+                <div className="name">
                   <p>Owned By</p>
                   <h1>Ralph Garraway</h1>
                 </div>
               </div>
-              <div class="owner">
-                <div class="avatar">
+              <div className="owner">
+                <div className="avatar">
                   <img src="assets/img/inner/8.jpg" alt="" />
                 </div>
-                <div class="name">
+                <div className="name">
                   <p>Create By</p>
                   <h1>Freddie Carpenter</h1>
                 </div>
               </div>
             </div>
-            <div class="description">
+            <div className="description">
               <p>
                 Habitant sollicitudin faucibus cursus lectus pulvinar dolor non
                 ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed
@@ -178,8 +178,8 @@ function Item() {
                 lectus pulvinar dolor non ultrices eget. Facilisi lobortisal
               </p>
             </div>
-            <div class="item-info">
-              <div class="figure-left">
+            <div className="item-info">
+              <div className="figure-left">
                 <ul>
                   <li>
                     <span>Artist : </span> Ralph Garraway
@@ -195,48 +195,48 @@ function Item() {
                   </li>
                 </ul>
               </div>
-              <div class="figure-right">
-                <div class="bid">
-                  <div class="left">
+              <div className="figure-right">
+                <div className="bid">
+                  <div className="left">
                     <p>Current Bid</p>
                   </div>
-                  <div class="right">
+                  <div className="right">
                     <h1>
                       4.89 eTH <span>= $12.246</span>
                     </h1>
                   </div>
                 </div>
-                <div class="timer">
-                  <div class="time">
+                <div className="timer">
+                  <div className="time">
                     <h1>{day1}</h1>
                     <h1>{day2}</h1>
                   </div>
-                  <div class="clone">
+                  <div className="clone">
                     <span>:</span>
                   </div>
-                  <div class="time">
+                  <div className="time">
                     <h1>{hour1}</h1>
                     <h1>{hour2}</h1>
                   </div>
-                  <div class="clone">
+                  <div className="clone">
                     <span>:</span>
                   </div>
-                  <div class="time">
+                  <div className="time">
                     <h1>{minute1}</h1>
                     <h1>{minute2}</h1>
                   </div>
-                  <div class="clone">
+                  <div className="clone">
                     <span>:</span>
                   </div>
-                  <div class="time">
+                  <div className="time">
                     <h1>{second1}</h1>
                     <h1>{second2}</h1>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="place-bid">
-              <a href="" class="bid-btn-init">
+            <div className="place-bid">
+              <a href="" className="bid-btn-init">
                 <svg
                   width="18"
                   height="18"
@@ -254,19 +254,19 @@ function Item() {
                 <span>Place Bid</span>
               </a>
             </div>
-            <div class="bid-history">
-              <div class="title">
+            <div className="bid-history">
+              <div className="title">
                 <h1>Bid History</h1>
-                <div class="underline"></div>
+                <div className="underline"></div>
               </div>
               <ul
-                class="nav nav-pills mb-3 tab-head"
+                className="nav nav-pills mb-3 tab-head"
                 id="pills-tab"
                 role="tablist"
               >
-                <li class="nav-item" role="presentation">
+                <li className="nav-item" role="presentation">
                   <button
-                    class="tab-btn active"
+                    className="tab-btn active"
                     id="pills-owners-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-owners"
@@ -278,9 +278,9 @@ function Item() {
                     Owners
                   </button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li className="nav-item" role="presentation">
                   <button
-                    class="tab-btn"
+                    className="tab-btn"
                     id="pills-bids-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-bids"
@@ -292,9 +292,9 @@ function Item() {
                     Bids
                   </button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li className="nav-item" role="presentation">
                   <button
-                    class="tab-btn"
+                    className="tab-btn"
                     id="pills-history-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-history"
@@ -307,60 +307,60 @@ function Item() {
                   </button>
                 </li>
               </ul>
-              <div class="tab-content" id="pills-tabContent">
+              <div className="tab-content" id="pills-tabContent">
                 <div
-                  class="tab-pane fade active show"
+                  className="tab-pane fade active show"
                   id="pills-owners"
                   role="tabpanel"
                   aria-labelledby="pills-owners-tab"
                 >
-                  <div class="row">
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                  <div className="row">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
@@ -368,58 +368,58 @@ function Item() {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="pills-bids"
                   role="tabpanel"
                   aria-labelledby="pills-bids-tab"
                 >
-                  <div class="row">
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                  <div className="row">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
@@ -427,58 +427,58 @@ function Item() {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="pills-history"
                   role="tabpanel"
                   aria-labelledby="pills-history-tab"
                 >
-                  <div class="row">
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                  <div className="row">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 mb-3">
-                      <div class="bid-author">
-                        <div class="author">
-                          <div class=" profile-img">
+                    <div className="col-sm-12 mb-3">
+                      <div className="bid-author">
+                        <div className="author">
+                          <div className=" profile-img">
                             <img
                               src="assets/img/inner/15.png"
                               alt="Image not found"
                             />
-                            <div class="mark">
-                              <i class="icofont-tick-mark"></i>
+                            <div className="mark">
+                              <i className="icofont-tick-mark"></i>
                             </div>
                           </div>
-                          <div class="author-details">
-                            <a href="" class="author-link">
+                          <div className="author-details">
+                            <a href="" className="author-link">
                               Psychedelics Anon <span>place a bid</span>
                             </a>
                             <p>8 hours ago</p>
                           </div>
                         </div>
-                        <div class="buy-rate">
-                          <p class="price-bid">4.89 ETH </p>
+                        <div className="buy-rate">
+                          <p className="price-bid">4.89 ETH </p>
                           <span>= $12.246</span>
                         </div>
                       </div>
@@ -527,7 +527,7 @@ function Item() {
                 }}
               >
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -609,7 +609,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -691,7 +691,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -773,7 +773,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -855,7 +855,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -937,7 +937,7 @@ function Item() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img

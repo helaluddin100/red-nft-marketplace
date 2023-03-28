@@ -32,7 +32,10 @@ function ranking() {
                 </a>
               </div>
               <div className="ranking-btns-item-right">
-                <select class="form-select" aria-label="Default select example">
+                <select
+                  className="form-select"
+                  aria-label="Default select example"
+                >
                   <option selected>Last 7 days</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
@@ -70,8 +73,8 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""
@@ -81,72 +84,20 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
-                          <img
-                            src="../assets/img/icon/Ethereum-icon.svg"
-                            alt=""
-                          />
-                        </div>
-                        <span>30,6453.01</span>
-                      </div>
-                    </td>
-                    <td>2K</td>
-                    <td>10.5K</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div className="recent-item-list">
-                        <div className="list-rank-count">
-                          <span>X1</span>
-                        </div>
-                        <div className="item-list-left">
-                          <img src="./assets/img/action/3.png" alt="" />
-                        </div>
-                        <div className="item-list-right">
-                          <h4>Sacral Metatron</h4>
-                          <p>Hannah Zeo</p>
-                        </div>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
-                          <img
-                            src="../assets/img/icon/Ethereum-icon.svg"
-                            alt=""
-                          />
-                        </div>
-                        <span>30,6453.01</span>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="red-vat">
-                        <span> -35.75%</span>
-                      </div>
-                    </td>
-                    <td>
-                      {" "}
-                      <div class="red-vat">
-                        <span> -35.75%</span>
-                      </div>
-                    </td>
-                    <td>
-                      {" "}
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""
@@ -174,8 +125,8 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""
@@ -185,72 +136,20 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
-                          <img
-                            src="../assets/img/icon/Ethereum-icon.svg"
-                            alt=""
-                          />
-                        </div>
-                        <span>30,6453.01</span>
-                      </div>
-                    </td>
-                    <td>2K</td>
-                    <td>10.5K</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div className="recent-item-list">
-                        <div className="list-rank-count">
-                          <span>X1</span>
-                        </div>
-                        <div className="item-list-left">
-                          <img src="./assets/img/action/3.png" alt="" />
-                        </div>
-                        <div className="item-list-right">
-                          <h4>Sacral Metatron</h4>
-                          <p>Hannah Zeo</p>
-                        </div>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
-                          <img
-                            src="../assets/img/icon/Ethereum-icon.svg"
-                            alt=""
-                          />
-                        </div>
-                        <span>30,6453.01</span>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="red-vat">
-                        <span> -35.75%</span>
-                      </div>
-                    </td>
-                    <td>
-                      {" "}
-                      <div class="red-vat">
-                        <span> -35.75%</span>
-                      </div>
-                    </td>
-                    <td>
-                      {" "}
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""
@@ -278,8 +177,8 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""
@@ -289,20 +188,124 @@ function ranking() {
                       </div>
                     </td>
                     <td>
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="red-vat">
+                      <div className="red-vat">
                         <span> -35.75%</span>
                       </div>
                     </td>
                     <td>
                       {" "}
-                      <div class="collection-price">
-                        <div class="ethereum-logo">
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
+                          <img
+                            src="../assets/img/icon/Ethereum-icon.svg"
+                            alt=""
+                          />
+                        </div>
+                        <span>30,6453.01</span>
+                      </div>
+                    </td>
+                    <td>2K</td>
+                    <td>10.5K</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div className="recent-item-list">
+                        <div className="list-rank-count">
+                          <span>X1</span>
+                        </div>
+                        <div className="item-list-left">
+                          <img src="./assets/img/action/3.png" alt="" />
+                        </div>
+                        <div className="item-list-right">
+                          <h4>Sacral Metatron</h4>
+                          <p>Hannah Zeo</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
+                          <img
+                            src="../assets/img/icon/Ethereum-icon.svg"
+                            alt=""
+                          />
+                        </div>
+                        <span>30,6453.01</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div className="red-vat">
+                        <span> -35.75%</span>
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div className="red-vat">
+                        <span> -35.75%</span>
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
+                          <img
+                            src="../assets/img/icon/Ethereum-icon.svg"
+                            alt=""
+                          />
+                        </div>
+                        <span>30,6453.01</span>
+                      </div>
+                    </td>
+                    <td>2K</td>
+                    <td>10.5K</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div className="recent-item-list">
+                        <div className="list-rank-count">
+                          <span>X1</span>
+                        </div>
+                        <div className="item-list-left">
+                          <img src="./assets/img/action/3.png" alt="" />
+                        </div>
+                        <div className="item-list-right">
+                          <h4>Sacral Metatron</h4>
+                          <p>Hannah Zeo</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
+                          <img
+                            src="../assets/img/icon/Ethereum-icon.svg"
+                            alt=""
+                          />
+                        </div>
+                        <span>30,6453.01</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div className="red-vat">
+                        <span> -35.75%</span>
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div className="red-vat">
+                        <span> -35.75%</span>
+                      </div>
+                    </td>
+                    <td>
+                      {" "}
+                      <div className="collection-price">
+                        <div className="ethereum-logo">
                           <img
                             src="../assets/img/icon/Ethereum-icon.svg"
                             alt=""

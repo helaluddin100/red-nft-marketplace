@@ -153,8 +153,8 @@ function Home() {
           <div className="row">
             <div className="section-title">
               <div className="title-content">
-              <h2>Live Auctions</h2>
-              <p>Most popular gaming digital nft market place </p>
+                <h2>Live Auctions</h2>
+                <p>Most popular gaming digital nft market place </p>
               </div>
               <div className="slider-nav">
                 <div className="prev">
@@ -195,7 +195,7 @@ function Home() {
                 }}
               >
                 <SwiperSlide>
-                <div className="product-card">
+                  <div className="product-card">
                     <div className="product-image">
                       <a href="" className="product-link">
                         <img
@@ -696,55 +696,76 @@ function Home() {
       <div className="work cpt-6">
         <div className="container">
           <div className="row g-4">
-          <div className="section-title">
+            <div className="section-title">
               <h2>How It Work</h2>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card-item">
                 <div className="card-head">
-                <div className="card-head-img">
-                <img src="assets/img/work/1.svg" alt="" className="work-img"/>
-                </div>
-                <span>01</span>
+                  <div className="card-head-img">
+                    <img
+                      src="assets/img/work/1.svg"
+                      alt=""
+                      className="work-img"
+                    />
+                  </div>
+                  <span>01</span>
                 </div>
                 <div className="card-content">
                   <h4>Set your wallet</h4>
-                  <p>Decide which wallet you want to use as your transaction method</p>
+                  <p>
+                    Decide which wallet you want to use as your transaction
+                    method
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card-item">
                 <div className="card-head">
-                <div className="card-head-img">
-                <img src="assets/img/work/2.svg" alt="" className="work-img"/>
-                </div>
-                <span>02</span>
+                  <div className="card-head-img">
+                    <img
+                      src="assets/img/work/2.svg"
+                      alt=""
+                      className="work-img"
+                    />
+                  </div>
+                  <span>02</span>
                 </div>
                 <div className="card-content">
                   <h4>Add your NFT's</h4>
-                  <p>If you are a creator/designer, you can add your NFTs to the display</p>
+                  <p>
+                    If you are a creator/designer, you can add your NFTs to the
+                    display
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card-item">
                 <div className="card-head">
-                <div className="card-head-img">
-                <img src="assets/img/work/3.svg" alt="" className="work-img"/>
-                </div>
-                <span>03</span>
+                  <div className="card-head-img">
+                    <img
+                      src="assets/img/work/3.svg"
+                      alt=""
+                      className="work-img"
+                    />
+                  </div>
+                  <span>03</span>
                 </div>
                 <div className="card-content">
                   <h4>Buy/Sell your Collection/NFT's</h4>
-                  <p>You can buy the NFTs you like or sell your NFTs to earn some cash</p>
+                  <p>
+                    You can buy the NFTs you like or sell your NFTs to earn some
+                    cash
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       {/* // ==============expolor product============= */}
       <div className="expolor-product cpy-6">
         <div className="container">
@@ -835,7 +856,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -922,7 +943,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1009,7 +1030,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1096,7 +1117,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1183,7 +1204,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1270,7 +1291,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1357,7 +1378,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1444,7 +1465,7 @@ function Home() {
                       <span>Place Bid</span>
                     </a>
                     <a href="" className="history-btn">
-                      <i class="icofont-refresh"></i> View History
+                      <i className="icofont-refresh"></i> View History
                     </a>
                   </div>
                 </div>
@@ -1459,9 +1480,9 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="section-title">
-            <div className="title-content">
-              <h2>Live Auctions</h2>
-              <p>Most popular gaming digital nft market place </p>
+              <div className="title-content">
+                <h2>Live Auctions</h2>
+                <p>Most popular gaming digital nft market place </p>
               </div>
               <div className="slider-nav">
                 <div className="prev">
@@ -1502,33 +1523,33 @@ function Home() {
                 }}
               >
                 <SwiperSlide>
-                  <div class="card-details">
-                    <div class="card">
-                      <div class="card-top">
+                  <div className="card-details">
+                    <div className="card">
+                      <div className="card-top">
                         <img src="assets/img/inner/19.png" alt="" />
                       </div>
-                      <div class="card-mid">
-                        <div class="image">
+                      <div className="card-mid">
+                        <div className="image">
                           <img src="assets/img/inner/8.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/9.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/10.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="card-bottom">
-                        <div class="left">
-                          <div class="profile">
-                            <div class="avatar">
+                      <div className="card-bottom">
+                        <div className="left">
+                          <div className="profile">
+                            <div className="avatar">
                               <img src="assets/img/inner/12.jpg" alt="" />
                             </div>
-                            <div class="checkmark">
-                              <i class="fas fa-check-circle"></i>
+                            <div className="checkmark">
+                              <i className="fas fa-check-circle"></i>
                             </div>
                           </div>
-                          <div class="name">
+                          <div className="name">
                             <h1>Creative Art Collection</h1>
                             <div className="creater-in">
                               <p>Created by</p>
@@ -1536,9 +1557,9 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <div class="right">
-                          <div class="like">
-                            <i class="far fa-heart"></i>
+                        <div className="right">
+                          <div className="like">
+                            <i className="far fa-heart"></i>
                             <span>100</span>
                           </div>
                         </div>
@@ -1547,33 +1568,33 @@ function Home() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div class="card-details">
-                    <div class="card">
-                      <div class="card-top">
+                  <div className="card-details">
+                    <div className="card">
+                      <div className="card-top">
                         <img src="assets/img/inner/19.png" alt="" />
                       </div>
-                      <div class="card-mid">
-                        <div class="image">
+                      <div className="card-mid">
+                        <div className="image">
                           <img src="assets/img/inner/8.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/9.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/10.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="card-bottom">
-                        <div class="left">
-                          <div class="profile">
-                            <div class="avatar">
+                      <div className="card-bottom">
+                        <div className="left">
+                          <div className="profile">
+                            <div className="avatar">
                               <img src="assets/img/inner/12.jpg" alt="" />
                             </div>
-                            <div class="checkmark">
-                              <i class="fas fa-check-circle"></i>
+                            <div className="checkmark">
+                              <i className="fas fa-check-circle"></i>
                             </div>
                           </div>
-                          <div class="name">
+                          <div className="name">
                             <h1>Creative Art Collection</h1>
                             <div className="creater-in">
                               <p>Created by</p>
@@ -1581,9 +1602,9 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <div class="right">
-                          <div class="like">
-                            <i class="far fa-heart"></i>
+                        <div className="right">
+                          <div className="like">
+                            <i className="far fa-heart"></i>
                             <span>100</span>
                           </div>
                         </div>
@@ -1592,33 +1613,33 @@ function Home() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div class="card-details">
-                    <div class="card">
-                      <div class="card-top">
+                  <div className="card-details">
+                    <div className="card">
+                      <div className="card-top">
                         <img src="assets/img/inner/19.png" alt="" />
                       </div>
-                      <div class="card-mid">
-                        <div class="image">
+                      <div className="card-mid">
+                        <div className="image">
                           <img src="assets/img/inner/8.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/9.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/10.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="card-bottom">
-                        <div class="left">
-                          <div class="profile">
-                            <div class="avatar">
+                      <div className="card-bottom">
+                        <div className="left">
+                          <div className="profile">
+                            <div className="avatar">
                               <img src="assets/img/inner/12.jpg" alt="" />
                             </div>
-                            <div class="checkmark">
-                              <i class="fas fa-check-circle"></i>
+                            <div className="checkmark">
+                              <i className="fas fa-check-circle"></i>
                             </div>
                           </div>
-                          <div class="name">
+                          <div className="name">
                             <h1>Creative Art Collection</h1>
                             <div className="creater-in">
                               <p>Created by</p>
@@ -1626,9 +1647,9 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <div class="right">
-                          <div class="like">
-                            <i class="far fa-heart"></i>
+                        <div className="right">
+                          <div className="like">
+                            <i className="far fa-heart"></i>
                             <span>100</span>
                           </div>
                         </div>
@@ -1637,33 +1658,33 @@ function Home() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div class="card-details">
-                    <div class="card">
-                      <div class="card-top">
+                  <div className="card-details">
+                    <div className="card">
+                      <div className="card-top">
                         <img src="assets/img/inner/19.png" alt="" />
                       </div>
-                      <div class="card-mid">
-                        <div class="image">
+                      <div className="card-mid">
+                        <div className="image">
                           <img src="assets/img/inner/8.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/9.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/10.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="card-bottom">
-                        <div class="left">
-                          <div class="profile">
-                            <div class="avatar">
+                      <div className="card-bottom">
+                        <div className="left">
+                          <div className="profile">
+                            <div className="avatar">
                               <img src="assets/img/inner/12.jpg" alt="" />
                             </div>
-                            <div class="checkmark">
-                              <i class="fas fa-check-circle"></i>
+                            <div className="checkmark">
+                              <i className="fas fa-check-circle"></i>
                             </div>
                           </div>
-                          <div class="name">
+                          <div className="name">
                             <h1>Creative Art Collection</h1>
                             <div className="creater-in">
                               <p>Created by</p>
@@ -1671,9 +1692,9 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <div class="right">
-                          <div class="like">
-                            <i class="far fa-heart"></i>
+                        <div className="right">
+                          <div className="like">
+                            <i className="far fa-heart"></i>
                             <span>100</span>
                           </div>
                         </div>
@@ -1682,33 +1703,33 @@ function Home() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div class="card-details">
-                    <div class="card">
-                      <div class="card-top">
+                  <div className="card-details">
+                    <div className="card">
+                      <div className="card-top">
                         <img src="assets/img/inner/19.png" alt="" />
                       </div>
-                      <div class="card-mid">
-                        <div class="image">
+                      <div className="card-mid">
+                        <div className="image">
                           <img src="assets/img/inner/8.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/9.jpg" alt="" />
                         </div>
-                        <div class="image">
+                        <div className="image">
                           <img src="assets/img/inner/10.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="card-bottom">
-                        <div class="left">
-                          <div class="profile">
-                            <div class="avatar">
+                      <div className="card-bottom">
+                        <div className="left">
+                          <div className="profile">
+                            <div className="avatar">
                               <img src="assets/img/inner/12.jpg" alt="" />
                             </div>
-                            <div class="checkmark">
-                              <i class="fas fa-check-circle"></i>
+                            <div className="checkmark">
+                              <i className="fas fa-check-circle"></i>
                             </div>
                           </div>
-                          <div class="name">
+                          <div className="name">
                             <h1>Creative Art Collection</h1>
                             <div className="creater-in">
                               <p>Created by</p>
@@ -1716,9 +1737,9 @@ function Home() {
                             </div>
                           </div>
                         </div>
-                        <div class="right">
-                          <div class="like">
-                            <i class="far fa-heart"></i>
+                        <div className="right">
+                          <div className="like">
+                            <i className="far fa-heart"></i>
                             <span>100</span>
                           </div>
                         </div>
@@ -1733,289 +1754,273 @@ function Home() {
       </div>
       {/* // ==============expolor product============= */}
 
-           {/* // ==============expolor product============= */}
-           <div className="home-author cpy-6">
+      {/* // ==============expolor product============= */}
+      <div className="home-author cpy-6">
         <div className="container">
           <div className="row">
             <div className="best-seller-title">
-             <div className="section-title">
-             <h2>Best Sellers</h2>
-             <p>Most popular gaming digital nft market place </p>
-             </div>
+              <div className="section-title">
+                <h2>Best Sellers</h2>
+                <p>Most popular gaming digital nft market place </p>
+              </div>
               <a href="" className="custom-btn">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.875 1.125L1.375 9.46875C0.8125 9.78125 0.875 10.5938 1.4375 10.8125L4.78125 12.2188L13.75 4.3125C13.9062 4.15625 14.1562 4.375 14 4.5625L6.5 13.7188V16.25C6.5 17 7.375 17.2812 7.8125 16.75L9.8125 14.3125L13.6875 15.9688C14.125 16.1562 14.6562 15.875 14.7188 15.375L16.9688 1.875C17.0938 1.25 16.4062 0.8125 15.875 1.125Z" fill="white"/>
-</svg>
-          <span>Explore More</span>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.875 1.125L1.375 9.46875C0.8125 9.78125 0.875 10.5938 1.4375 10.8125L4.78125 12.2188L13.75 4.3125C13.9062 4.15625 14.1562 4.375 14 4.5625L6.5 13.7188V16.25C6.5 17 7.375 17.2812 7.8125 16.75L9.8125 14.3125L13.6875 15.9688C14.125 16.1562 14.6562 15.875 14.7188 15.375L16.9688 1.875C17.0938 1.25 16.4062 0.8125 15.875 1.125Z"
+                    fill="white"
+                  />
+                </svg>
+                <span>Explore More</span>
               </a>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+          <div className="row mt-5">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
-              <div class="tp-collection-card">
-                <div class="collection-image">
+            <div className="col-xl-2 col-md-4 col-lg-3 col-sm-6 mb-4">
+              <div className="tp-collection-card">
+                <div className="collection-image">
                   <img src="assets/img/inner/7.jpg" alt="" />
 
-                  <span class="av-mark">
-                    <i class="icofont-check"></i>
+                  <span className="av-mark">
+                    <i className="icofont-check"></i>
                   </span>
                 </div>
-                <div class="collection-des">
-                  <a href="" class="collection-name">
+                <div className="collection-des">
+                  <a href="" className="collection-name">
                     NFT Funny Cat
                   </a>
-                  <p class="collection-total-price">7,080.95 ETH</p>
+                  <p className="collection-total-price">7,080.95 ETH</p>
                 </div>
                 <a href="" className="custom-btn">
-              
-          <span>Follow</span>
-              </a>
-
+                  <span>Follow</span>
+                </a>
               </div>
             </div>
-
           </div>
         </div>
       </div>

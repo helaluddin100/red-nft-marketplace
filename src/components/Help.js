@@ -32,15 +32,18 @@ function Help() {
                     Laborum obcaecati dignissimos quae quo ad iste ipsum
                     officiis deleniti asperiores sit.
                   </p>
-                  <div class="form-filter my-4">
-                    <form method="post" class="search-form input-search-from">
+                  <div className="form-filter my-4">
+                    <form
+                      method="post"
+                      className="search-form input-search-from"
+                    >
                       <input
                         type="text"
-                        class="form-control search-input ss-input"
+                        className="form-control search-input ss-input"
                         placeholder="Enter your word art"
                       />
-                      <button class="search-btn ss-btn" type="submit">
-                        <i class="icofont-search-1"></i>
+                      <button className="search-btn ss-btn" type="submit">
+                        <i className="icofont-search-1"></i>
                       </button>
                     </form>
                   </div>

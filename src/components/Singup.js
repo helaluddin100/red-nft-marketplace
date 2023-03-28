@@ -32,13 +32,13 @@ function Login() {
                 <div className="social-login">
                   <a href="" className="social-login-btn">
                     <span>
-                      <i class="icofont-google-plus"></i>
+                      <i className="icofont-google-plus"></i>
                       Google
                     </span>
                   </a>
                   <a href="" className="social-login-btn">
                     <span>
-                      <i class="icofont-facebook"></i>
+                      <i className="icofont-facebook"></i>
                       Facebook
                     </span>
                   </a>
@@ -69,15 +69,15 @@ function Login() {
                     </div>
                     <div className="form-group mb-3">
                       <div className="forget-area">
-                        <div class="form-check">
+                        <div className="form-check">
                           <input
-                            class="form-check-input"
+                            className="form-check-input"
                             type="checkbox"
                             value=""
                             id="flexCheckDefault"
                           />
                           <label
-                            class="form-check-label"
+                            className="form-check-label"
                             for="flexCheckDefault"
                           >
                             Default checkbox
