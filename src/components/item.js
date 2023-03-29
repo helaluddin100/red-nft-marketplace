@@ -236,7 +236,7 @@ function Item() {
               </div>
             </div>
             <div className="place-bid">
-              <a href="" className="bid-btn-init">
+              <a href="" className="bid-btn-init ">
                 <svg
                   width="18"
                   height="18"

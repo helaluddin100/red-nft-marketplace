@@ -177,13 +177,13 @@ li.nav-list:hover .dp-menu {
         background: var(--white-color);
         border-radius: 12px;
         right: 0;
-        width: 50%;
+        width: 80%;
         margin: auto;
         transition: 0.3s;
         opacity: 1 !important;
         visibility: visible;
-        padding: 0 0 15px 0px;
-        padding-bottom: 29px;
+        /* padding: 0 0 15px 0px; */
+        /* padding-bottom: 29px; */
         overflow: hidden;
         box-shadow: none;
         z-index: 99;

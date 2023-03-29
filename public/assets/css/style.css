@@ -1912,25 +1912,26 @@ p.price-bid {
 
 a.bid-btn-init {
   top: 50%;
+  width: 100%;
   padding: 8px 25px;
   font-weight: 600;
   font-size: 18px;
   display: flex;
   align-items: center;
-  color: var(--main-color);
+  color: var(--white-color);
   border-radius: 23px;
   transition: 0.3s;
   justify-content: center;
-  background: rgba(255, 62, 62, 0.07);
+  background: var(--main-color);
 }
 
 a.bid-btn-init:hover {
-  background: var(--main-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  color: var(--main-color);
 }
 
 a.bid-btn-init:hover svg path {
-  fill: var(--white-color);
+  fill: var(--main-color);
 }
 
 a.bid-btn-init svg path {

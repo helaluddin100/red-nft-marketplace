@@ -446,7 +446,7 @@ function User_admin() {
                 </div>
 
                 <div className="row g-4">
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -556,7 +556,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -666,7 +666,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -776,7 +776,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -886,7 +886,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -996,7 +996,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -1106,7 +1106,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">
@@ -1216,7 +1216,7 @@ function User_admin() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-xl- col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div className="top-author-item user-admin-author-item">
                       <div className="top-author-item-content">
                         <div className="tops-items">

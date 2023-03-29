@@ -574,6 +574,9 @@ table tbody tr td {
 table > :not(caption) > * > * {
   border-bottom-width: 2px !important;
 }
+.recent-select-item .form-select {
+  width: 100%;
+}
 
 /* ======================== Bids End ====================== */
 
@@ -589,7 +592,12 @@ table > :not(caption) > * > * {
   justify-content: center;
   margin-top: 50px;
 }
-
+.user-list-select-item {
+  width: 200px !important;
+}
+.user-list-select-item .form-select{
+  width: 180px !important;
+}
 /* ===================== User list end ============ */
 
 /* ===================== Saved start ============ */
