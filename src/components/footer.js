@@ -63,6 +63,13 @@ function Footer() {
                     <li class="footer-list">
                       <Link to="/collection">
                         <a href="" class="footer-link">
+                        Collection 
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="footer-list">
+                      <Link to="/collection-create">
+                        <a href="" class="footer-link">
                         Create  Collection 
                         </a>
                       </Link>

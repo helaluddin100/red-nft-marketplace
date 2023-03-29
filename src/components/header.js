@@ -183,6 +183,9 @@ function Header() {
                         <HashLink to='/collection' className='dp-link' onClick={_toggleSidebar}>
                       Collection
                          </HashLink>
+                        <HashLink to='/collection-create' className='dp-link' onClick={_toggleSidebar}>
+                      Collection Create 
+                         </HashLink>
                         </li>
                       
                       </ul>

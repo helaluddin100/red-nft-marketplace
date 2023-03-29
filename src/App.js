@@ -94,7 +94,7 @@ function App() {
           <Route exact path="/item-create">
             <Create />
           </Route>
-          <Route exact path="/collection">
+          <Route exact path="/collection-create">
             <CollectionCreate/>
           </Route>
         </Switch>
